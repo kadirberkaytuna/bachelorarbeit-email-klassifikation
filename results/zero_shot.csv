@@ -1,0 +1,51 @@
+ID,Wahr,Vorhersage,Input_Tokens,Output_Tokens,Sekunden
+2970,Rechnung/Zahlung,Rechnung/Zahlung,202,11,1.1
+11148,Rechnung/Zahlung,Technischer Support,159,9,0.62
+23004,Technischer Support,Technischer Support,146,9,1.03
+8842,Vertriebsanfrage,Vertriebsanfrage,242,11,1.02
+12618,Vertriebsanfrage,Technischer Support,148,9,1.01
+5455,Technischer Support,Technischer Support,191,9,0.78
+1748,Vertriebsanfrage,Technischer Support,181,9,0.57
+27831,Kundenservice,Technischer Support,124,9,0.56
+16751,Rechnung/Zahlung,Technischer Support,176,9,0.54
+18972,Vertriebsanfrage,Vertriebsanfrage,112,11,0.8
+21969,Reklamation/Rückgabe,Technischer Support,96,9,0.79
+12365,Rechnung/Zahlung,Rechnung/Zahlung,228,11,0.61
+8537,Rechnung/Zahlung,Rechnung/Zahlung,226,11,0.56
+11541,Rechnung/Zahlung,Technischer Support,115,9,1.06
+19049,Rechnung/Zahlung,Rechnung/Zahlung,150,11,0.6
+20301,Reklamation/Rückgabe,Vertriebsanfrage,164,11,0.58
+6047,Kundenservice,Vertriebsanfrage,197,11,0.85
+6717,Kundenservice,Vertriebsanfrage,131,11,0.87
+9949,Kundenservice,Vertriebsanfrage,111,11,0.57
+13564,Rechnung/Zahlung,Rechnung/Zahlung,217,11,0.86
+14256,Kundenservice,Technischer Support,178,9,0.58
+9285,Technischer Support,Technischer Support,126,9,0.53
+2021,Vertriebsanfrage,Kundenservice,227,9,0.68
+1144,Reklamation/Rückgabe,Technischer Support,165,9,0.72
+4313,Reklamation/Rückgabe,Technischer Support,234,9,1.15
+27530,Vertriebsanfrage,Technischer Support,143,9,0.75
+2983,Technischer Support,Kundenservice,182,9,0.85
+24484,Reklamation/Rückgabe,Vertriebsanfrage,140,11,0.63
+10451,Vertriebsanfrage,Vertriebsanfrage,234,11,0.61
+19719,Reklamation/Rückgabe,Technischer Support,279,9,0.73
+28572,Rechnung/Zahlung,Rechnung/Zahlung,212,11,0.63
+13914,Rechnung/Zahlung,Rechnung/Zahlung,132,11,0.64
+8760,Kundenservice,Technischer Support,152,9,0.56
+17914,Kundenservice,Technischer Support,120,9,0.59
+16760,Vertriebsanfrage,Vertriebsanfrage,147,11,0.58
+17533,Vertriebsanfrage,Technischer Support,116,9,0.56
+22889,Reklamation/Rückgabe,Kundenservice,133,9,0.82
+9669,Vertriebsanfrage,Vertriebsanfrage,133,11,0.55
+2837,Technischer Support,Vertriebsanfrage,214,11,0.49
+5046,Reklamation/Rückgabe,Technischer Support,226,9,0.65
+15944,Rechnung/Zahlung,Technischer Support,195,9,0.59
+18054,Technischer Support,Technischer Support,225,9,0.68
+2685,Rechnung/Zahlung,Rechnung/Zahlung,204,11,0.6
+3051,Reklamation/Rückgabe,Technischer Support,239,9,0.81
+7342,Reklamation/Rückgabe,Technischer Support,151,9,0.61
+3132,Reklamation/Rückgabe,Technischer Support,228,9,0.87
+20076,Technischer Support,Technischer Support,212,9,0.57
+8970,Reklamation/Rückgabe,Reklamation/Rückgabe,240,12,0.62
+15516,Reklamation/Rückgabe,Technischer Support,122,9,0.63
+8809,Rechnung/Zahlung,Vertriebsanfrage,178,11,0.84
