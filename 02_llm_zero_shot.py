@@ -4,7 +4,7 @@ import pandas as pd
 from openai import OpenAI
 from sklearn.metrics import classification_report
 
-MODELL = "gpt-4o-mini"   # vor dem Start ein aktuelles, günstiges Modell in der OpenAI-Doku prüfen
+MODELL = "gpt-6-luna"    # Modellwahl siehe Kapitel 4.3
 ANZAHL = 50              # erst mit wenigen Tickets testen, später auf len(test) erhöhen
 KATEGORIEN = ["Rechnung/Zahlung", "Reklamation/Rückgabe", "Vertriebsanfrage",
               "Kundenservice", "Technischer Support"]
@@ -23,7 +23,8 @@ for _, ticket in test.iterrows():
     start = time.time()
     antwort = client.chat.completions.create(
         model=MODELL,
-        temperature=0,
+        reasoning_effort="none",  # kein Reasoning: schneller, günstiger, besser reproduzierbar
+        temperature=0,            # falls das Modell den Parameter ablehnt: Zeile entfernen
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
@@ -38,6 +39,7 @@ for _, ticket in test.iterrows():
         "ID": ticket["ID"],
         "Wahr": ticket["Kategorie"],
         "Vorhersage": kategorie,
+        "Modell": antwort.model,
         "Input_Tokens": antwort.usage.prompt_tokens,
         "Output_Tokens": antwort.usage.completion_tokens,
         "Sekunden": round(time.time() - start, 2),
@@ -49,6 +51,7 @@ os.makedirs("results", exist_ok=True)
 df.to_csv("results/zero_shot.csv", index=False)
 
 print("\n===== Zero-Shot =====")
+print(f"Modell: {df['Modell'].iloc[0]}")
 print(classification_report(df["Wahr"], df["Vorhersage"], digits=3, zero_division=0))
 print(f"Tokens gesamt: {df['Input_Tokens'].sum()} Input, {df['Output_Tokens'].sum()} Output")
 print(f"Ø Antwortzeit: {df['Sekunden'].mean():.2f} s pro E-Mail")

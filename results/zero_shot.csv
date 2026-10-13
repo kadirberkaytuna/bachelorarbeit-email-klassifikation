@@ -1,51 +1,51 @@
-ID,Wahr,Vorhersage,Input_Tokens,Output_Tokens,Sekunden
-2970,Rechnung/Zahlung,Rechnung/Zahlung,202,11,1.1
-11148,Rechnung/Zahlung,Technischer Support,159,9,0.62
-23004,Technischer Support,Technischer Support,146,9,1.03
-8842,Vertriebsanfrage,Vertriebsanfrage,242,11,1.02
-12618,Vertriebsanfrage,Technischer Support,148,9,1.01
-5455,Technischer Support,Technischer Support,191,9,0.78
-1748,Vertriebsanfrage,Technischer Support,181,9,0.57
-27831,Kundenservice,Technischer Support,124,9,0.56
-16751,Rechnung/Zahlung,Technischer Support,176,9,0.54
-18972,Vertriebsanfrage,Vertriebsanfrage,112,11,0.8
-21969,Reklamation/Rückgabe,Technischer Support,96,9,0.79
-12365,Rechnung/Zahlung,Rechnung/Zahlung,228,11,0.61
-8537,Rechnung/Zahlung,Rechnung/Zahlung,226,11,0.56
-11541,Rechnung/Zahlung,Technischer Support,115,9,1.06
-19049,Rechnung/Zahlung,Rechnung/Zahlung,150,11,0.6
-20301,Reklamation/Rückgabe,Vertriebsanfrage,164,11,0.58
-6047,Kundenservice,Vertriebsanfrage,197,11,0.85
-6717,Kundenservice,Vertriebsanfrage,131,11,0.87
-9949,Kundenservice,Vertriebsanfrage,111,11,0.57
-13564,Rechnung/Zahlung,Rechnung/Zahlung,217,11,0.86
-14256,Kundenservice,Technischer Support,178,9,0.58
-9285,Technischer Support,Technischer Support,126,9,0.53
-2021,Vertriebsanfrage,Kundenservice,227,9,0.68
-1144,Reklamation/Rückgabe,Technischer Support,165,9,0.72
-4313,Reklamation/Rückgabe,Technischer Support,234,9,1.15
-27530,Vertriebsanfrage,Technischer Support,143,9,0.75
-2983,Technischer Support,Kundenservice,182,9,0.85
-24484,Reklamation/Rückgabe,Vertriebsanfrage,140,11,0.63
-10451,Vertriebsanfrage,Vertriebsanfrage,234,11,0.61
-19719,Reklamation/Rückgabe,Technischer Support,279,9,0.73
-28572,Rechnung/Zahlung,Rechnung/Zahlung,212,11,0.63
-13914,Rechnung/Zahlung,Rechnung/Zahlung,132,11,0.64
-8760,Kundenservice,Technischer Support,152,9,0.56
-17914,Kundenservice,Technischer Support,120,9,0.59
-16760,Vertriebsanfrage,Vertriebsanfrage,147,11,0.58
-17533,Vertriebsanfrage,Technischer Support,116,9,0.56
-22889,Reklamation/Rückgabe,Kundenservice,133,9,0.82
-9669,Vertriebsanfrage,Vertriebsanfrage,133,11,0.55
-2837,Technischer Support,Vertriebsanfrage,214,11,0.49
-5046,Reklamation/Rückgabe,Technischer Support,226,9,0.65
-15944,Rechnung/Zahlung,Technischer Support,195,9,0.59
-18054,Technischer Support,Technischer Support,225,9,0.68
-2685,Rechnung/Zahlung,Rechnung/Zahlung,204,11,0.6
-3051,Reklamation/Rückgabe,Technischer Support,239,9,0.81
-7342,Reklamation/Rückgabe,Technischer Support,151,9,0.61
-3132,Reklamation/Rückgabe,Technischer Support,228,9,0.87
-20076,Technischer Support,Technischer Support,212,9,0.57
-8970,Reklamation/Rückgabe,Reklamation/Rückgabe,240,12,0.62
-15516,Reklamation/Rückgabe,Technischer Support,122,9,0.63
-8809,Rechnung/Zahlung,Vertriebsanfrage,178,11,0.84
+ID,Wahr,Vorhersage,Modell,Input_Tokens,Output_Tokens,Sekunden
+2970,Rechnung/Zahlung,Technischer Support,gpt-6-luna,201,14,3.82
+11148,Rechnung/Zahlung,Technischer Support,gpt-6-luna,158,14,3.17
+23004,Technischer Support,Technischer Support,gpt-6-luna,145,14,2.79
+8842,Vertriebsanfrage,Vertriebsanfrage,gpt-6-luna,241,16,2.15
+12618,Vertriebsanfrage,Technischer Support,gpt-6-luna,147,14,1.56
+5455,Technischer Support,Technischer Support,gpt-6-luna,190,14,1.27
+1748,Vertriebsanfrage,Technischer Support,gpt-6-luna,180,14,2.45
+27831,Kundenservice,Technischer Support,gpt-6-luna,123,14,1.04
+16751,Rechnung/Zahlung,Technischer Support,gpt-6-luna,175,14,0.8
+18972,Vertriebsanfrage,Vertriebsanfrage,gpt-6-luna,111,16,0.96
+21969,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,95,14,1.19
+12365,Rechnung/Zahlung,Rechnung/Zahlung,gpt-6-luna,227,16,1.0
+8537,Rechnung/Zahlung,Rechnung/Zahlung,gpt-6-luna,225,16,1.14
+11541,Rechnung/Zahlung,Technischer Support,gpt-6-luna,114,14,0.84
+19049,Rechnung/Zahlung,Rechnung/Zahlung,gpt-6-luna,149,16,1.22
+20301,Reklamation/Rückgabe,Vertriebsanfrage,gpt-6-luna,163,16,1.16
+6047,Kundenservice,Vertriebsanfrage,gpt-6-luna,196,16,0.87
+6717,Kundenservice,Kundenservice,gpt-6-luna,130,14,1.72
+9949,Kundenservice,Vertriebsanfrage,gpt-6-luna,110,16,1.11
+13564,Rechnung/Zahlung,Rechnung/Zahlung,gpt-6-luna,216,16,1.42
+14256,Kundenservice,Technischer Support,gpt-6-luna,177,14,0.89
+9285,Technischer Support,Technischer Support,gpt-6-luna,125,14,1.2
+2021,Vertriebsanfrage,Technischer Support,gpt-6-luna,226,14,0.93
+1144,Reklamation/Rückgabe,Kundenservice,gpt-6-luna,164,14,0.95
+4313,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,233,14,1.22
+27530,Vertriebsanfrage,Technischer Support,gpt-6-luna,142,14,1.1
+2983,Technischer Support,Kundenservice,gpt-6-luna,181,14,0.91
+24484,Reklamation/Rückgabe,Vertriebsanfrage,gpt-6-luna,139,16,1.01
+10451,Vertriebsanfrage,Vertriebsanfrage,gpt-6-luna,233,16,0.87
+19719,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,278,14,1.59
+28572,Rechnung/Zahlung,Rechnung/Zahlung,gpt-6-luna,211,16,0.88
+13914,Rechnung/Zahlung,Rechnung/Zahlung,gpt-6-luna,131,16,1.19
+8760,Kundenservice,Technischer Support,gpt-6-luna,151,14,1.25
+17914,Kundenservice,Technischer Support,gpt-6-luna,119,14,1.24
+16760,Vertriebsanfrage,Kundenservice,gpt-6-luna,146,14,1.21
+17533,Vertriebsanfrage,Technischer Support,gpt-6-luna,115,14,1.55
+22889,Reklamation/Rückgabe,Vertriebsanfrage,gpt-6-luna,132,16,1.27
+9669,Vertriebsanfrage,Vertriebsanfrage,gpt-6-luna,132,16,1.02
+2837,Technischer Support,Vertriebsanfrage,gpt-6-luna,213,16,1.04
+5046,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,225,14,1.25
+15944,Rechnung/Zahlung,Technischer Support,gpt-6-luna,194,14,1.11
+18054,Technischer Support,Technischer Support,gpt-6-luna,224,14,1.08
+2685,Rechnung/Zahlung,Vertriebsanfrage,gpt-6-luna,203,16,1.03
+3051,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,238,14,0.97
+7342,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,150,14,1.11
+3132,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,227,14,1.48
+20076,Technischer Support,Technischer Support,gpt-6-luna,211,14,0.89
+8970,Reklamation/Rückgabe,Reklamation/Rückgabe,gpt-6-luna,239,17,0.93
+15516,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,121,14,1.18
+8809,Rechnung/Zahlung,Vertriebsanfrage,gpt-6-luna,177,16,1.15
