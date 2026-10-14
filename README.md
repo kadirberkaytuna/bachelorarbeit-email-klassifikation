@@ -6,6 +6,12 @@ pip install -r requirements.txt
 ```
 
 ## Ausführen
+0. Datenaufbereitung (optional, `data/tickets_de.csv` liegt bereits im Repository):
+```
+   python 00_datenaufbereitung.py
+```
+   Lädt den Datensatz in einer festen Revision von Hugging Face, filtert die deutschsprachigen
+   Tickets und ordnet sieben Original-Queues den fünf Kategorien zu.
 1. Baseline (kein API-Schlüssel nötig, erzeugt auch das Testset):
 ```
    python 01_baseline.py
@@ -30,3 +36,12 @@ pro Ticket in `results/zero_shot.csv` gespeichert.
 ## Daten
 `data/tickets_de.csv`: 8.110 deutschsprachige Tickets aus Tobi-Bueck/customer-support-tickets
 (Hugging Face, DOI 10.57967/hf/6184, CC BY-NC 4.0), gefiltert und auf 5 Kategorien abgebildet.
+Erzeugt mit `00_datenaufbereitung.py`.
+
+| Kategorie | Original-Queue(s) | Tickets |
+|---|---|---|
+| Rechnung/Zahlung | Billing and Payments | 856 |
+| Reklamation/Rückgabe | Returns and Exchanges | 414 |
+| Vertriebsanfrage | Sales and Pre-Sales | 310 |
+| Kundenservice | Customer Service | 1.354 |
+| Technischer Support | Technical Support, Product Support, IT Support | 5.176 |
