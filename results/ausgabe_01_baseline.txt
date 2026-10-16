@@ -1,0 +1,47 @@
+Ausgeführt am: 16.10.2026
+
+C:\Projekte\Bachelorarbeit\proto\.venv\Scripts\python.exe C:\Projekte\Bachelorarbeit\proto\01_baseline.py
+Training: 1200 Tickets, Test: 300 Tickets
+
+===== Naive Bayes =====
+                      precision    recall  f1-score   support
+
+       Kundenservice      0.281     0.267     0.274        60
+    Rechnung/Zahlung      0.536     0.500     0.517        60
+Reklamation/Rückgabe      0.382     0.217     0.277        60
+ Technischer Support      0.255     0.467     0.329        60
+    Vertriebsanfrage      0.488     0.350     0.408        60
+
+            accuracy                          0.360       300
+           macro avg      0.388     0.360     0.361       300
+        weighted avg      0.388     0.360     0.361       300
+
+Trainingszeit: 0.08 s
+Ø Vorhersagezeit: 0.57 ms pro E-Mail
+
+===== Logistische Regression =====
+                      precision    recall  f1-score   support
+
+       Kundenservice      0.286     0.233     0.257        60
+    Rechnung/Zahlung      0.650     0.650     0.650        60
+Reklamation/Rückgabe      0.439     0.417     0.427        60
+ Technischer Support      0.312     0.417     0.357        60
+    Vertriebsanfrage      0.481     0.433     0.456        60
+
+            accuracy                          0.430       300
+           macro avg      0.434     0.430     0.430       300
+        weighted avg      0.434     0.430     0.430       300
+
+Trainingszeit: 0.27 s
+Ø Vorhersagezeit: 0.42 ms pro E-Mail
+
+Vorhersagen gespeichert in results/baseline.csv
+
+Vorhersage: Rechnung/Zahlung
+  Kundenservice: 16%
+  Rechnung/Zahlung: 30%
+  Reklamation/Rückgabe: 18%
+  Technischer Support: 18%
+  Vertriebsanfrage: 18%
+
+Process finished with exit code 0

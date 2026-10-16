@@ -1,51 +1,301 @@
-ID,Wahr,Vorhersage,Modell,Input_Tokens,Output_Tokens,Sekunden
-2970,Rechnung/Zahlung,Technischer Support,gpt-6-luna,201,14,3.82
-11148,Rechnung/Zahlung,Technischer Support,gpt-6-luna,158,14,3.17
-23004,Technischer Support,Technischer Support,gpt-6-luna,145,14,2.79
-8842,Vertriebsanfrage,Vertriebsanfrage,gpt-6-luna,241,16,2.15
-12618,Vertriebsanfrage,Technischer Support,gpt-6-luna,147,14,1.56
-5455,Technischer Support,Technischer Support,gpt-6-luna,190,14,1.27
-1748,Vertriebsanfrage,Technischer Support,gpt-6-luna,180,14,2.45
-27831,Kundenservice,Technischer Support,gpt-6-luna,123,14,1.04
-16751,Rechnung/Zahlung,Technischer Support,gpt-6-luna,175,14,0.8
-18972,Vertriebsanfrage,Vertriebsanfrage,gpt-6-luna,111,16,0.96
-21969,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,95,14,1.19
-12365,Rechnung/Zahlung,Rechnung/Zahlung,gpt-6-luna,227,16,1.0
-8537,Rechnung/Zahlung,Rechnung/Zahlung,gpt-6-luna,225,16,1.14
-11541,Rechnung/Zahlung,Technischer Support,gpt-6-luna,114,14,0.84
-19049,Rechnung/Zahlung,Rechnung/Zahlung,gpt-6-luna,149,16,1.22
-20301,Reklamation/Rückgabe,Vertriebsanfrage,gpt-6-luna,163,16,1.16
-6047,Kundenservice,Vertriebsanfrage,gpt-6-luna,196,16,0.87
-6717,Kundenservice,Kundenservice,gpt-6-luna,130,14,1.72
-9949,Kundenservice,Vertriebsanfrage,gpt-6-luna,110,16,1.11
-13564,Rechnung/Zahlung,Rechnung/Zahlung,gpt-6-luna,216,16,1.42
-14256,Kundenservice,Technischer Support,gpt-6-luna,177,14,0.89
-9285,Technischer Support,Technischer Support,gpt-6-luna,125,14,1.2
-2021,Vertriebsanfrage,Technischer Support,gpt-6-luna,226,14,0.93
-1144,Reklamation/Rückgabe,Kundenservice,gpt-6-luna,164,14,0.95
-4313,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,233,14,1.22
-27530,Vertriebsanfrage,Technischer Support,gpt-6-luna,142,14,1.1
-2983,Technischer Support,Kundenservice,gpt-6-luna,181,14,0.91
-24484,Reklamation/Rückgabe,Vertriebsanfrage,gpt-6-luna,139,16,1.01
-10451,Vertriebsanfrage,Vertriebsanfrage,gpt-6-luna,233,16,0.87
-19719,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,278,14,1.59
-28572,Rechnung/Zahlung,Rechnung/Zahlung,gpt-6-luna,211,16,0.88
-13914,Rechnung/Zahlung,Rechnung/Zahlung,gpt-6-luna,131,16,1.19
-8760,Kundenservice,Technischer Support,gpt-6-luna,151,14,1.25
-17914,Kundenservice,Technischer Support,gpt-6-luna,119,14,1.24
-16760,Vertriebsanfrage,Kundenservice,gpt-6-luna,146,14,1.21
-17533,Vertriebsanfrage,Technischer Support,gpt-6-luna,115,14,1.55
-22889,Reklamation/Rückgabe,Vertriebsanfrage,gpt-6-luna,132,16,1.27
-9669,Vertriebsanfrage,Vertriebsanfrage,gpt-6-luna,132,16,1.02
-2837,Technischer Support,Vertriebsanfrage,gpt-6-luna,213,16,1.04
-5046,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,225,14,1.25
-15944,Rechnung/Zahlung,Technischer Support,gpt-6-luna,194,14,1.11
-18054,Technischer Support,Technischer Support,gpt-6-luna,224,14,1.08
-2685,Rechnung/Zahlung,Vertriebsanfrage,gpt-6-luna,203,16,1.03
-3051,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,238,14,0.97
-7342,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,150,14,1.11
-3132,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,227,14,1.48
-20076,Technischer Support,Technischer Support,gpt-6-luna,211,14,0.89
-8970,Reklamation/Rückgabe,Reklamation/Rückgabe,gpt-6-luna,239,17,0.93
-15516,Reklamation/Rückgabe,Technischer Support,gpt-6-luna,121,14,1.18
-8809,Rechnung/Zahlung,Vertriebsanfrage,gpt-6-luna,177,16,1.15
+ID,Label,Vorhersage,Rohantwort,Modell,Input_Tokens,Output_Tokens,Sekunden
+2970,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,201,14,2.95
+11148,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,158,14,1.44
+23004,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,145,14,1.71
+8842,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,241,16,1.52
+12618,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,147,14,1.14
+5455,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,190,14,0.93
+1748,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,179,14,1.1
+27831,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,123,14,1.41
+16751,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,175,14,0.96
+18972,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,111,16,1.57
+21969,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,95,14,0.93
+12365,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,227,16,1.32
+8537,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,225,16,1.16
+11541,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,114,14,0.98
+19049,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,149,16,1.08
+20301,Reklamation/Rückgabe,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,162,16,1.06
+6047,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,195,16,1.1
+6717,Kundenservice,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,129,14,2.74
+9949,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,110,16,1.2
+13564,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,216,16,1.01
+14256,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,176,14,1.19
+9285,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,125,14,1.33
+2021,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,226,14,0.92
+1144,Reklamation/Rückgabe,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,164,14,1.06
+4313,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,233,14,0.95
+27530,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,142,14,1.51
+2983,Technischer Support,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,181,14,1.19
+24484,Reklamation/Rückgabe,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,139,16,1.12
+10451,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,233,16,0.98
+19719,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,278,14,0.94
+28572,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,211,16,1.01
+13914,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,131,16,1.0
+8760,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,151,14,1.02
+17914,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,119,14,1.17
+16760,Vertriebsanfrage,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,146,14,1.68
+17533,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,115,14,1.19
+22889,Reklamation/Rückgabe,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,132,16,1.17
+9669,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,132,16,1.27
+2837,Technischer Support,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,213,16,0.98
+5046,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,225,14,1.05
+15944,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,194,14,1.24
+18054,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,224,14,0.93
+2685,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,202,16,1.14
+3051,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,238,14,1.04
+7342,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,150,14,1.16
+3132,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,227,14,0.89
+20076,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,211,14,0.98
+8970,Reklamation/Rückgabe,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,239,14,1.02
+15516,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,121,14,0.94
+8809,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,177,16,0.98
+15016,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,166,16,2.17
+22311,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,94,16,0.96
+19895,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,149,14,0.99
+21073,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,114,16,1.29
+11518,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,212,14,1.06
+13764,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,135,14,1.1
+24546,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,185,16,1.0
+25079,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,169,14,1.03
+24757,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,155,16,0.92
+18524,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,231,14,0.98
+7889,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,98,14,1.44
+19185,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,137,14,1.08
+5028,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,118,16,1.09
+7863,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,222,16,1.35
+9915,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,177,14,0.81
+15279,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,223,16,1.16
+10817,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,137,14,1.12
+25024,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,215,14,2.44
+26004,Reklamation/Rückgabe,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,124,16,1.24
+23455,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,107,16,1.32
+26307,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,161,14,1.02
+25351,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,147,16,1.12
+27186,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,225,14,1.28
+18058,Technischer Support,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,145,16,0.97
+12246,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,218,14,0.86
+24846,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,287,14,1.12
+8804,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,186,14,0.94
+5945,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,241,14,0.84
+6342,Kundenservice,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,116,14,1.93
+26828,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,107,14,0.97
+28376,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,230,16,1.31
+17695,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,129,14,0.92
+27270,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,161,14,0.84
+10192,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,147,14,1.82
+26125,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,139,16,0.93
+23143,Kundenservice,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,193,14,1.13
+15718,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,124,14,0.94
+24647,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,240,16,0.95
+24299,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,200,16,0.95
+3160,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,225,14,1.06
+25413,Kundenservice,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,197,14,0.98
+5421,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,185,14,1.02
+28558,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,123,14,1.27
+7024,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,146,14,0.97
+18311,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,137,14,0.96
+25151,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,125,14,1.03
+2610,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,236,16,1.02
+19258,Reklamation/Rückgabe,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,230,14,1.14
+8436,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,216,14,0.95
+16991,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,252,16,0.94
+9954,Kundenservice,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,146,14,0.95
+7345,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,206,16,1.37
+5764,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,179,14,0.99
+18640,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,157,16,1.06
+8945,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,224,16,0.95
+16891,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,206,14,1.02
+27466,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,207,14,1.26
+6065,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,114,16,0.96
+2181,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,225,14,0.98
+13642,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,103,16,1.15
+26788,Reklamation/Rückgabe,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,92,16,1.11
+24327,Technischer Support,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,155,16,1.08
+19061,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,101,16,0.95
+18488,Reklamation/Rückgabe,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,135,14,0.86
+2466,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,219,14,0.97
+19426,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,141,14,1.18
+27823,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,227,16,1.61
+4749,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,111,14,1.35
+28038,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,140,16,1.13
+5882,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,220,14,0.95
+17895,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,176,14,0.89
+25571,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,186,16,1.22
+4550,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,191,16,0.99
+24748,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,127,16,0.93
+9160,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,227,14,1.04
+28375,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,149,14,0.97
+12962,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,227,14,1.01
+6797,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,146,14,0.92
+586,Technischer Support,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,242,14,1.0
+8145,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,239,14,0.92
+19245,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,205,14,1.49
+9616,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,147,14,0.96
+13431,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,212,14,1.06
+4058,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,150,14,0.92
+10270,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,180,16,0.97
+9743,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,227,16,1.09
+26497,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,106,14,1.02
+18217,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,126,14,0.96
+4207,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,229,16,1.03
+13397,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,152,14,0.95
+21403,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,128,14,1.24
+22373,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,176,14,1.09
+12823,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,229,14,1.23
+20582,Technischer Support,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,208,14,1.02
+14099,Technischer Support,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,129,16,1.02
+22539,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,104,14,0.88
+20262,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,181,16,1.29
+22644,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,157,14,1.01
+13597,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,141,14,1.06
+8248,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,206,16,0.92
+13827,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,209,14,0.89
+12256,Technischer Support,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,169,16,0.92
+7354,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,182,14,1.0
+2899,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,199,16,0.98
+19593,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,172,14,1.0
+5939,Technischer Support,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,121,14,0.91
+21799,Technischer Support,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,104,16,0.96
+27870,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,169,16,1.09
+13316,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,155,14,0.97
+25313,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,205,14,1.18
+5304,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,99,14,1.0
+27117,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,146,16,1.78
+3482,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,139,16,0.96
+9519,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,219,14,1.87
+3879,Reklamation/Rückgabe,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,219,16,1.24
+1128,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,149,14,1.06
+17586,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,99,14,0.86
+9686,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,187,16,0.87
+19974,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,154,16,1.12
+1541,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,211,14,1.13
+28312,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,197,14,1.11
+20726,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,192,14,1.62
+14919,Reklamation/Rückgabe,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,148,16,0.95
+21116,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,110,14,0.97
+26134,Technischer Support,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,194,16,1.46
+7553,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,204,14,1.78
+17766,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,125,16,1.01
+24700,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,180,16,1.04
+24143,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,181,16,1.11
+3846,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,182,14,0.87
+8516,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,152,14,0.9
+20233,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,171,16,1.17
+18029,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,149,16,1.0
+3339,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,208,16,1.0
+6531,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,235,16,1.02
+7164,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,215,14,0.87
+6161,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,211,14,1.22
+13684,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,183,16,0.94
+4829,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,211,14,1.01
+17654,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,178,14,1.08
+14206,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,215,14,0.9
+8709,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,226,14,1.42
+13403,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,162,14,0.91
+15340,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,128,14,0.93
+18934,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,104,14,1.08
+19613,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,148,16,1.06
+8979,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,225,16,1.09
+9244,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,204,16,1.1
+7559,Vertriebsanfrage,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,222,14,1.99
+15236,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,125,16,0.99
+15179,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,218,14,1.06
+1300,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,125,14,1.35
+22839,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,136,16,1.56
+23548,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,201,16,1.39
+9286,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,213,16,1.11
+17495,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,152,16,1.06
+22267,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,173,14,1.37
+21979,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,245,16,1.48
+6407,Reklamation/Rückgabe,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,171,16,1.75
+23700,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,157,14,1.01
+242,Reklamation/Rückgabe,Reklamation/Rückgabe,"{""kategorie"":""Reklamation/Rückgabe""}",gpt-6-luna,250,17,1.14
+27738,Technischer Support,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,117,16,1.03
+15297,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,177,16,1.15
+9855,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,154,14,0.96
+25297,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,203,16,1.04
+1319,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,142,14,1.31
+11537,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,182,14,0.93
+26805,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,116,14,1.32
+25492,Technischer Support,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,172,16,0.98
+26424,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,252,14,0.93
+25567,Rechnung/Zahlung,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,122,14,1.25
+23034,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,201,14,0.9
+27687,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,213,14,1.26
+19618,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,231,16,0.96
+13103,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,216,16,1.08
+14602,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,165,16,1.0
+4461,Reklamation/Rückgabe,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,234,14,0.86
+23167,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,140,16,1.52
+7982,Reklamation/Rückgabe,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,221,16,0.91
+26587,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,174,14,0.97
+24252,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,175,16,0.98
+26361,Reklamation/Rückgabe,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,131,16,1.1
+25667,Reklamation/Rückgabe,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,104,16,0.87
+15135,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,208,14,1.03
+2025,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,217,14,1.35
+26384,Reklamation/Rückgabe,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,237,14,0.84
+5065,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,223,14,1.09
+27336,Technischer Support,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,224,16,0.93
+25395,Reklamation/Rückgabe,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,192,14,1.01
+8213,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,236,14,1.16
+16260,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,212,14,0.91
+22408,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,163,14,0.89
+15936,Reklamation/Rückgabe,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,154,16,1.03
+25854,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,163,14,1.02
+21928,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,137,16,1.19
+7165,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,233,16,0.92
+14839,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,96,14,0.93
+26015,Reklamation/Rückgabe,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,232,16,0.87
+28222,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,133,14,0.87
+21835,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,158,14,0.92
+26796,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,208,16,1.14
+3243,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,236,14,1.08
+25803,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,144,16,1.05
+22152,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,198,16,1.0
+24478,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,145,16,1.07
+5635,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,189,16,0.96
+2011,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,115,16,1.1
+24241,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,158,14,1.0
+18100,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,145,14,0.97
+8215,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,227,14,0.89
+12123,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,189,16,1.81
+4220,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,238,14,0.92
+11591,Technischer Support,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,206,16,1.11
+4319,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,221,16,1.13
+5999,Vertriebsanfrage,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,104,14,1.05
+24197,Rechnung/Zahlung,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,168,14,1.05
+9016,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,118,14,1.0
+20197,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,207,14,1.01
+10822,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,194,14,1.07
+9650,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,159,16,0.99
+644,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,223,14,1.31
+28261,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,137,14,1.24
+17372,Reklamation/Rückgabe,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,233,16,1.24
+2546,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,168,16,0.9
+7591,Kundenservice,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,221,14,0.98
+5617,Kundenservice,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,318,14,0.9
+8441,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,111,14,1.07
+6305,Reklamation/Rückgabe,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,166,14,1.09
+13610,Technischer Support,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,199,14,1.28
+28452,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,186,16,1.36
+6665,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,171,16,1.19
+8054,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,251,14,0.92
+11442,Technischer Support,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,150,14,0.91
+3660,Reklamation/Rückgabe,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,241,14,0.96
+23843,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,143,14,0.86
+22319,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,178,16,1.26
+14048,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,214,16,1.28
+8252,Vertriebsanfrage,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,105,14,1.13
+11723,Technischer Support,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,114,16,1.16
+24465,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,140,16,0.87
+5664,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,231,14,0.81
+24508,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,179,16,1.18
+17556,Kundenservice,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,115,16,1.09
+45,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,216,16,0.95
+2289,Kundenservice,Technischer Support,"{""kategorie"":""Technischer Support""}",gpt-6-luna,252,14,1.55
+23260,Technischer Support,Kundenservice,"{""kategorie"":""Kundenservice""}",gpt-6-luna,205,14,1.93
+18088,Rechnung/Zahlung,Rechnung/Zahlung,"{""kategorie"":""Rechnung/Zahlung""}",gpt-6-luna,135,16,1.12
+27783,Vertriebsanfrage,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,176,16,1.14
+23484,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,104,16,0.9
+8647,Rechnung/Zahlung,Vertriebsanfrage,"{""kategorie"":""Vertriebsanfrage""}",gpt-6-luna,189,16,1.1

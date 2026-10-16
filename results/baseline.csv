@@ -1,0 +1,301 @@
+ID,Label,Naive Bayes,Naive Bayes Sekunden,Logistische Regression,Logistische Regression Sekunden
+2970,Rechnung/Zahlung,Rechnung/Zahlung,0.001119,Rechnung/Zahlung,0.000737
+11148,Rechnung/Zahlung,Kundenservice,0.000529,Kundenservice,0.000509
+23004,Technischer Support,Technischer Support,0.000478,Technischer Support,0.000431
+8842,Vertriebsanfrage,Vertriebsanfrage,0.000493,Vertriebsanfrage,0.000505
+12618,Vertriebsanfrage,Reklamation/Rückgabe,0.000436,Reklamation/Rückgabe,0.000419
+5455,Technischer Support,Technischer Support,0.000479,Technischer Support,0.00046
+1748,Vertriebsanfrage,Technischer Support,0.000457,Technischer Support,0.000446
+27831,Kundenservice,Technischer Support,0.000406,Technischer Support,0.000382
+16751,Rechnung/Zahlung,Technischer Support,0.000447,Technischer Support,0.000599
+18972,Vertriebsanfrage,Kundenservice,0.000426,Kundenservice,0.000424
+21969,Reklamation/Rückgabe,Technischer Support,0.000406,Vertriebsanfrage,0.000374
+12365,Rechnung/Zahlung,Rechnung/Zahlung,0.00046,Rechnung/Zahlung,0.000502
+8537,Rechnung/Zahlung,Rechnung/Zahlung,0.003475,Rechnung/Zahlung,0.000521
+11541,Rechnung/Zahlung,Reklamation/Rückgabe,0.002688,Rechnung/Zahlung,0.000386
+19049,Rechnung/Zahlung,Rechnung/Zahlung,0.000861,Rechnung/Zahlung,0.000447
+20301,Reklamation/Rückgabe,Rechnung/Zahlung,0.000671,Rechnung/Zahlung,0.000423
+6047,Kundenservice,Vertriebsanfrage,0.000847,Reklamation/Rückgabe,0.00046
+6717,Kundenservice,Technischer Support,0.000515,Vertriebsanfrage,0.000427
+9949,Kundenservice,Kundenservice,0.00055,Kundenservice,0.000397
+13564,Rechnung/Zahlung,Rechnung/Zahlung,0.000888,Rechnung/Zahlung,0.000473
+14256,Kundenservice,Technischer Support,0.000546,Technischer Support,0.000439
+9285,Technischer Support,Technischer Support,0.000693,Technischer Support,0.000409
+2021,Vertriebsanfrage,Kundenservice,0.000555,Kundenservice,0.000454
+1144,Reklamation/Rückgabe,Reklamation/Rückgabe,0.000464,Reklamation/Rückgabe,0.00045
+4313,Reklamation/Rückgabe,Kundenservice,0.000543,Kundenservice,0.00047
+27530,Vertriebsanfrage,Technischer Support,0.000474,Technischer Support,0.000421
+2983,Technischer Support,Rechnung/Zahlung,0.000492,Rechnung/Zahlung,0.000447
+24484,Reklamation/Rückgabe,Kundenservice,0.00042,Technischer Support,0.000413
+10451,Vertriebsanfrage,Vertriebsanfrage,0.000591,Vertriebsanfrage,0.000481
+19719,Reklamation/Rückgabe,Technischer Support,0.000667,Technischer Support,0.0005
+28572,Rechnung/Zahlung,Technischer Support,0.000734,Rechnung/Zahlung,0.000451
+13914,Rechnung/Zahlung,Rechnung/Zahlung,0.002129,Rechnung/Zahlung,0.00041
+8760,Kundenservice,Kundenservice,0.001066,Technischer Support,0.000423
+17914,Kundenservice,Technischer Support,0.000901,Technischer Support,0.000378
+16760,Vertriebsanfrage,Vertriebsanfrage,0.000482,Vertriebsanfrage,0.000414
+17533,Vertriebsanfrage,Kundenservice,0.000417,Kundenservice,0.000389
+22889,Reklamation/Rückgabe,Reklamation/Rückgabe,0.000434,Reklamation/Rückgabe,0.00038
+9669,Vertriebsanfrage,Vertriebsanfrage,0.000439,Vertriebsanfrage,0.000427
+2837,Technischer Support,Vertriebsanfrage,0.000486,Vertriebsanfrage,0.000458
+5046,Reklamation/Rückgabe,Technischer Support,0.000482,Technischer Support,0.00047
+15944,Rechnung/Zahlung,Rechnung/Zahlung,0.000495,Rechnung/Zahlung,0.000436
+18054,Technischer Support,Technischer Support,0.000487,Reklamation/Rückgabe,0.000425
+2685,Rechnung/Zahlung,Rechnung/Zahlung,0.000466,Rechnung/Zahlung,0.000427
+3051,Reklamation/Rückgabe,Technischer Support,0.000497,Reklamation/Rückgabe,0.000441
+7342,Reklamation/Rückgabe,Technischer Support,0.000449,Reklamation/Rückgabe,0.000499
+3132,Reklamation/Rückgabe,Reklamation/Rückgabe,0.000518,Rechnung/Zahlung,0.000456
+20076,Technischer Support,Rechnung/Zahlung,0.000481,Rechnung/Zahlung,0.000426
+8970,Reklamation/Rückgabe,Technischer Support,0.000478,Vertriebsanfrage,0.000433
+15516,Reklamation/Rückgabe,Vertriebsanfrage,0.000397,Reklamation/Rückgabe,0.000388
+8809,Rechnung/Zahlung,Rechnung/Zahlung,0.000471,Rechnung/Zahlung,0.000394
+15016,Vertriebsanfrage,Vertriebsanfrage,0.000473,Vertriebsanfrage,0.000424
+22311,Kundenservice,Vertriebsanfrage,0.000429,Vertriebsanfrage,0.000368
+19895,Technischer Support,Reklamation/Rückgabe,0.000426,Reklamation/Rückgabe,0.000367
+21073,Vertriebsanfrage,Vertriebsanfrage,0.000405,Vertriebsanfrage,0.000379
+11518,Technischer Support,Technischer Support,0.000464,Technischer Support,0.000484
+13764,Reklamation/Rückgabe,Reklamation/Rückgabe,0.000425,Reklamation/Rückgabe,0.00039
+24546,Rechnung/Zahlung,Rechnung/Zahlung,0.000596,Rechnung/Zahlung,0.000404
+25079,Reklamation/Rückgabe,Technischer Support,0.000467,Technischer Support,0.000492
+24757,Kundenservice,Rechnung/Zahlung,0.000623,Rechnung/Zahlung,0.000396
+18524,Reklamation/Rückgabe,Reklamation/Rückgabe,0.000538,Reklamation/Rückgabe,0.000436
+7889,Kundenservice,Rechnung/Zahlung,0.000417,Rechnung/Zahlung,0.000352
+19185,Reklamation/Rückgabe,Reklamation/Rückgabe,0.000491,Reklamation/Rückgabe,0.000363
+5028,Kundenservice,Vertriebsanfrage,0.000494,Vertriebsanfrage,0.000364
+7863,Rechnung/Zahlung,Kundenservice,0.0005,Rechnung/Zahlung,0.000439
+9915,Technischer Support,Rechnung/Zahlung,0.000451,Rechnung/Zahlung,0.000522
+15279,Vertriebsanfrage,Kundenservice,0.000567,Kundenservice,0.00044
+10817,Technischer Support,Technischer Support,0.000466,Technischer Support,0.0004
+25024,Reklamation/Rückgabe,Reklamation/Rückgabe,0.000462,Reklamation/Rückgabe,0.000413
+26004,Reklamation/Rückgabe,Vertriebsanfrage,0.000419,Vertriebsanfrage,0.000351
+23455,Rechnung/Zahlung,Rechnung/Zahlung,0.000398,Kundenservice,0.000387
+26307,Reklamation/Rückgabe,Technischer Support,0.000468,Technischer Support,0.000385
+25351,Rechnung/Zahlung,Kundenservice,0.000422,Kundenservice,0.000382
+27186,Kundenservice,Kundenservice,0.000474,Kundenservice,0.000432
+18058,Technischer Support,Kundenservice,0.000442,Kundenservice,0.000383
+12246,Reklamation/Rückgabe,Rechnung/Zahlung,0.000471,Rechnung/Zahlung,0.000424
+24846,Reklamation/Rückgabe,Kundenservice,0.000503,Kundenservice,0.000464
+8804,Vertriebsanfrage,Vertriebsanfrage,0.000453,Vertriebsanfrage,0.000442
+5945,Rechnung/Zahlung,Technischer Support,0.000484,Rechnung/Zahlung,0.000468
+6342,Kundenservice,Technischer Support,0.000407,Technischer Support,0.000376
+26828,Kundenservice,Technischer Support,0.000439,Kundenservice,0.000351
+28376,Kundenservice,Vertriebsanfrage,0.000473,Vertriebsanfrage,0.000455
+17695,Reklamation/Rückgabe,Technischer Support,0.000397,Technischer Support,0.000421
+27270,Vertriebsanfrage,Technischer Support,0.000453,Vertriebsanfrage,0.000422
+10192,Vertriebsanfrage,Technischer Support,0.000429,Technischer Support,0.000415
+26125,Kundenservice,Kundenservice,0.000403,Kundenservice,0.000374
+23143,Kundenservice,Technischer Support,0.000465,Reklamation/Rückgabe,0.00041
+15718,Technischer Support,Kundenservice,0.000396,Kundenservice,0.000386
+24647,Vertriebsanfrage,Vertriebsanfrage,0.000475,Vertriebsanfrage,0.000424
+24299,Vertriebsanfrage,Kundenservice,0.000447,Kundenservice,0.000418
+3160,Rechnung/Zahlung,Reklamation/Rückgabe,0.000466,Reklamation/Rückgabe,0.000431
+25413,Kundenservice,Vertriebsanfrage,0.000468,Vertriebsanfrage,0.000444
+5421,Rechnung/Zahlung,Technischer Support,0.000459,Rechnung/Zahlung,0.000411
+28558,Kundenservice,Reklamation/Rückgabe,0.000394,Reklamation/Rückgabe,0.000352
+7024,Technischer Support,Technischer Support,0.000398,Vertriebsanfrage,0.000381
+18311,Technischer Support,Technischer Support,0.000411,Technischer Support,0.000375
+25151,Technischer Support,Technischer Support,0.000408,Technischer Support,0.000352
+2610,Kundenservice,Vertriebsanfrage,0.000484,Technischer Support,0.000463
+19258,Reklamation/Rückgabe,Technischer Support,0.000522,Technischer Support,0.000429
+8436,Technischer Support,Technischer Support,0.000455,Technischer Support,0.000427
+16991,Kundenservice,Kundenservice,0.000486,Kundenservice,0.000445
+9954,Kundenservice,Technischer Support,0.000449,Reklamation/Rückgabe,0.000396
+7345,Rechnung/Zahlung,Rechnung/Zahlung,0.000546,Rechnung/Zahlung,0.000406
+5764,Kundenservice,Reklamation/Rückgabe,0.000478,Technischer Support,0.000437
+18640,Rechnung/Zahlung,Technischer Support,0.00045,Technischer Support,0.000387
+8945,Vertriebsanfrage,Rechnung/Zahlung,0.000498,Rechnung/Zahlung,0.000417
+16891,Technischer Support,Rechnung/Zahlung,0.00046,Kundenservice,0.000451
+27466,Reklamation/Rückgabe,Technischer Support,0.000442,Technischer Support,0.000409
+6065,Vertriebsanfrage,Vertriebsanfrage,0.000396,Vertriebsanfrage,0.000383
+2181,Vertriebsanfrage,Technischer Support,0.000474,Technischer Support,0.000427
+13642,Kundenservice,Vertriebsanfrage,0.000399,Vertriebsanfrage,0.00034
+26788,Reklamation/Rückgabe,Kundenservice,0.000412,Reklamation/Rückgabe,0.000362
+24327,Technischer Support,Kundenservice,0.000445,Technischer Support,0.000391
+19061,Rechnung/Zahlung,Kundenservice,0.0004,Kundenservice,0.000341
+18488,Reklamation/Rückgabe,Kundenservice,0.000439,Kundenservice,0.000404
+2466,Kundenservice,Technischer Support,0.000469,Technischer Support,0.000419
+19426,Kundenservice,Technischer Support,0.000426,Technischer Support,0.00038
+27823,Kundenservice,Kundenservice,0.000479,Kundenservice,0.000612
+4749,Kundenservice,Reklamation/Rückgabe,0.000395,Reklamation/Rückgabe,0.000454
+28038,Kundenservice,Kundenservice,0.000437,Kundenservice,0.000397
+5882,Rechnung/Zahlung,Technischer Support,0.000472,Technischer Support,0.000554
+17895,Technischer Support,Technischer Support,0.000463,Technischer Support,0.000508
+25571,Rechnung/Zahlung,Rechnung/Zahlung,0.000457,Rechnung/Zahlung,0.000423
+4550,Vertriebsanfrage,Rechnung/Zahlung,0.00046,Rechnung/Zahlung,0.000439
+24748,Kundenservice,Kundenservice,0.000436,Kundenservice,0.000387
+9160,Technischer Support,Reklamation/Rückgabe,0.000467,Reklamation/Rückgabe,0.000441
+28375,Reklamation/Rückgabe,Reklamation/Rückgabe,0.000415,Reklamation/Rückgabe,0.000374
+12962,Kundenservice,Technischer Support,0.000476,Reklamation/Rückgabe,0.000467
+6797,Kundenservice,Technischer Support,0.000436,Technischer Support,0.00041
+586,Technischer Support,Vertriebsanfrage,0.000458,Vertriebsanfrage,0.000443
+8145,Kundenservice,Reklamation/Rückgabe,0.000471,Reklamation/Rückgabe,0.000426
+19245,Kundenservice,Technischer Support,0.000449,Technischer Support,0.000421
+9616,Vertriebsanfrage,Technischer Support,0.000411,Technischer Support,0.00038
+13431,Reklamation/Rückgabe,Technischer Support,0.00049,Reklamation/Rückgabe,0.000398
+4058,Technischer Support,Technischer Support,0.000419,Technischer Support,0.00051
+10270,Kundenservice,Kundenservice,0.00043,Kundenservice,0.000414
+9743,Kundenservice,Rechnung/Zahlung,0.00047,Rechnung/Zahlung,0.000444
+26497,Kundenservice,Technischer Support,0.000409,Technischer Support,0.000359
+18217,Rechnung/Zahlung,Technischer Support,0.000691,Rechnung/Zahlung,0.000352
+4207,Vertriebsanfrage,Vertriebsanfrage,0.000542,Vertriebsanfrage,0.000464
+13397,Technischer Support,Technischer Support,0.000467,Technischer Support,0.000389
+21403,Vertriebsanfrage,Technischer Support,0.000543,Technischer Support,0.00037
+22373,Vertriebsanfrage,Technischer Support,0.000452,Technischer Support,0.000389
+12823,Kundenservice,Technischer Support,0.000515,Technischer Support,0.000425
+20582,Technischer Support,Reklamation/Rückgabe,0.000471,Reklamation/Rückgabe,0.000464
+14099,Technischer Support,Reklamation/Rückgabe,0.000415,Reklamation/Rückgabe,0.00037
+22539,Reklamation/Rückgabe,Reklamation/Rückgabe,0.0004,Reklamation/Rückgabe,0.000354
+20262,Kundenservice,Kundenservice,0.000451,Vertriebsanfrage,0.000418
+22644,Rechnung/Zahlung,Technischer Support,0.000427,Technischer Support,0.000376
+13597,Reklamation/Rückgabe,Technischer Support,0.000428,Reklamation/Rückgabe,0.000378
+8248,Rechnung/Zahlung,Reklamation/Rückgabe,0.000479,Reklamation/Rückgabe,0.000417
+13827,Vertriebsanfrage,Technischer Support,0.000458,Technischer Support,0.000424
+12256,Technischer Support,Kundenservice,0.000425,Kundenservice,0.000383
+7354,Rechnung/Zahlung,Rechnung/Zahlung,0.000447,Rechnung/Zahlung,0.00042
+2899,Rechnung/Zahlung,Rechnung/Zahlung,0.000474,Rechnung/Zahlung,0.000416
+19593,Rechnung/Zahlung,Rechnung/Zahlung,0.000525,Rechnung/Zahlung,0.000379
+5939,Technischer Support,Vertriebsanfrage,0.000505,Vertriebsanfrage,0.000387
+21799,Technischer Support,Kundenservice,0.000402,Kundenservice,0.000349
+27870,Kundenservice,Kundenservice,0.000469,Kundenservice,0.000375
+13316,Technischer Support,Technischer Support,0.0005,Reklamation/Rückgabe,0.00044
+25313,Reklamation/Rückgabe,Reklamation/Rückgabe,0.000561,Reklamation/Rückgabe,0.000456
+5304,Kundenservice,Technischer Support,0.000476,Rechnung/Zahlung,0.000361
+27117,Vertriebsanfrage,Reklamation/Rückgabe,0.00049,Reklamation/Rückgabe,0.000386
+3482,Rechnung/Zahlung,Technischer Support,0.000455,Rechnung/Zahlung,0.00036
+9519,Rechnung/Zahlung,Technischer Support,0.000532,Technischer Support,0.000462
+3879,Reklamation/Rückgabe,Reklamation/Rückgabe,0.000566,Reklamation/Rückgabe,0.000417
+1128,Kundenservice,Technischer Support,0.000529,Technischer Support,0.000383
+17586,Kundenservice,Technischer Support,0.000618,Technischer Support,0.000369
+9686,Rechnung/Zahlung,Rechnung/Zahlung,0.000582,Rechnung/Zahlung,0.0004
+19974,Rechnung/Zahlung,Technischer Support,0.000644,Rechnung/Zahlung,0.000488
+1541,Technischer Support,Technischer Support,0.000573,Technischer Support,0.000424
+28312,Technischer Support,Technischer Support,0.000602,Technischer Support,0.000551
+20726,Reklamation/Rückgabe,Technischer Support,0.00063,Technischer Support,0.000406
+14919,Reklamation/Rückgabe,Kundenservice,0.000533,Kundenservice,0.000411
+21116,Reklamation/Rückgabe,Technischer Support,0.000631,Reklamation/Rückgabe,0.000341
+26134,Technischer Support,Rechnung/Zahlung,0.000594,Kundenservice,0.000446
+7553,Vertriebsanfrage,Vertriebsanfrage,0.000555,Vertriebsanfrage,0.000597
+17766,Rechnung/Zahlung,Rechnung/Zahlung,0.000606,Rechnung/Zahlung,0.000402
+24700,Vertriebsanfrage,Rechnung/Zahlung,0.000569,Rechnung/Zahlung,0.000421
+24143,Rechnung/Zahlung,Rechnung/Zahlung,0.000649,Rechnung/Zahlung,0.00039
+3846,Kundenservice,Technischer Support,0.000566,Technischer Support,0.000415
+8516,Kundenservice,Technischer Support,0.000513,Technischer Support,0.000378
+20233,Kundenservice,Kundenservice,0.000669,Kundenservice,0.000399
+18029,Vertriebsanfrage,Vertriebsanfrage,0.00059,Vertriebsanfrage,0.000532
+3339,Vertriebsanfrage,Rechnung/Zahlung,0.000604,Rechnung/Zahlung,0.000435
+6531,Rechnung/Zahlung,Rechnung/Zahlung,0.000791,Rechnung/Zahlung,0.000447
+7164,Technischer Support,Kundenservice,0.000587,Technischer Support,0.000414
+6161,Vertriebsanfrage,Rechnung/Zahlung,0.000609,Vertriebsanfrage,0.000434
+13684,Kundenservice,Kundenservice,0.000557,Kundenservice,0.000408
+4829,Reklamation/Rückgabe,Reklamation/Rückgabe,0.000583,Reklamation/Rückgabe,0.000444
+17654,Technischer Support,Technischer Support,0.000631,Technischer Support,0.0004
+14206,Reklamation/Rückgabe,Technischer Support,0.000624,Reklamation/Rückgabe,0.00041
+8709,Technischer Support,Technischer Support,0.00054,Technischer Support,0.000419
+13403,Kundenservice,Technischer Support,0.00051,Technischer Support,0.00038
+15340,Technischer Support,Technischer Support,0.000498,Reklamation/Rückgabe,0.000403
+18934,Kundenservice,Vertriebsanfrage,0.000469,Vertriebsanfrage,0.000336
+19613,Rechnung/Zahlung,Kundenservice,0.000536,Kundenservice,0.000388
+8979,Vertriebsanfrage,Kundenservice,0.000752,Kundenservice,0.000535
+9244,Rechnung/Zahlung,Rechnung/Zahlung,0.000627,Rechnung/Zahlung,0.000444
+7559,Vertriebsanfrage,Technischer Support,0.000585,Technischer Support,0.000476
+15236,Rechnung/Zahlung,Vertriebsanfrage,0.000511,Vertriebsanfrage,0.000357
+15179,Kundenservice,Technischer Support,0.000615,Technischer Support,0.000455
+1300,Rechnung/Zahlung,Kundenservice,0.000487,Kundenservice,0.000365
+22839,Rechnung/Zahlung,Kundenservice,0.000527,Kundenservice,0.000366
+23548,Vertriebsanfrage,Kundenservice,0.000539,Kundenservice,0.000425
+9286,Vertriebsanfrage,Kundenservice,0.000611,Kundenservice,0.00041
+17495,Rechnung/Zahlung,Technischer Support,0.000588,Rechnung/Zahlung,0.000376
+22267,Vertriebsanfrage,Technischer Support,0.000524,Technischer Support,0.0004
+21979,Vertriebsanfrage,Vertriebsanfrage,0.000752,Vertriebsanfrage,0.000442
+6407,Reklamation/Rückgabe,Vertriebsanfrage,0.000572,Vertriebsanfrage,0.000375
+23700,Technischer Support,Kundenservice,0.000517,Vertriebsanfrage,0.000401
+242,Reklamation/Rückgabe,Technischer Support,0.000769,Reklamation/Rückgabe,0.000441
+27738,Technischer Support,Vertriebsanfrage,0.000555,Vertriebsanfrage,0.000346
+15297,Rechnung/Zahlung,Reklamation/Rückgabe,0.000541,Rechnung/Zahlung,0.000525
+9855,Rechnung/Zahlung,Rechnung/Zahlung,0.000557,Rechnung/Zahlung,0.000399
+25297,Rechnung/Zahlung,Kundenservice,0.000604,Vertriebsanfrage,0.00045
+1319,Reklamation/Rückgabe,Technischer Support,0.000512,Vertriebsanfrage,0.000387
+11537,Vertriebsanfrage,Technischer Support,0.000515,Vertriebsanfrage,0.000382
+26805,Technischer Support,Reklamation/Rückgabe,0.000505,Reklamation/Rückgabe,0.000507
+25492,Technischer Support,Kundenservice,0.000536,Kundenservice,0.00051
+26424,Technischer Support,Technischer Support,0.000723,Technischer Support,0.000505
+25567,Rechnung/Zahlung,Technischer Support,0.000694,Kundenservice,0.000374
+23034,Reklamation/Rückgabe,Technischer Support,0.000541,Technischer Support,0.000449
+27687,Vertriebsanfrage,Kundenservice,0.000737,Reklamation/Rückgabe,0.00042
+19618,Vertriebsanfrage,Reklamation/Rückgabe,0.000624,Reklamation/Rückgabe,0.000416
+13103,Vertriebsanfrage,Rechnung/Zahlung,0.000563,Vertriebsanfrage,0.000441
+14602,Kundenservice,Kundenservice,0.000725,Reklamation/Rückgabe,0.000383
+4461,Reklamation/Rückgabe,Technischer Support,0.000686,Technischer Support,0.000428
+23167,Vertriebsanfrage,Kundenservice,0.000522,Vertriebsanfrage,0.000396
+7982,Reklamation/Rückgabe,Vertriebsanfrage,0.000578,Vertriebsanfrage,0.000433
+26587,Reklamation/Rückgabe,Rechnung/Zahlung,0.000533,Rechnung/Zahlung,0.00039
+24252,Vertriebsanfrage,Vertriebsanfrage,0.000504,Vertriebsanfrage,0.000399
+26361,Reklamation/Rückgabe,Kundenservice,0.000549,Vertriebsanfrage,0.00036
+25667,Reklamation/Rückgabe,Vertriebsanfrage,0.000502,Vertriebsanfrage,0.000351
+15135,Reklamation/Rückgabe,Technischer Support,0.000545,Technischer Support,0.000435
+2025,Technischer Support,Kundenservice,0.000572,Rechnung/Zahlung,0.000445
+26384,Reklamation/Rückgabe,Technischer Support,0.000892,Reklamation/Rückgabe,0.000442
+5065,Vertriebsanfrage,Kundenservice,0.000718,Kundenservice,0.00043
+27336,Technischer Support,Vertriebsanfrage,0.000607,Vertriebsanfrage,0.00042
+25395,Reklamation/Rückgabe,Rechnung/Zahlung,0.000567,Reklamation/Rückgabe,0.000414
+8213,Technischer Support,Technischer Support,0.000577,Technischer Support,0.000435
+16260,Reklamation/Rückgabe,Reklamation/Rückgabe,0.000583,Reklamation/Rückgabe,0.000422
+22408,Technischer Support,Kundenservice,0.000573,Kundenservice,0.00038
+15936,Reklamation/Rückgabe,Rechnung/Zahlung,0.000686,Rechnung/Zahlung,0.000389
+25854,Reklamation/Rückgabe,Rechnung/Zahlung,0.000622,Rechnung/Zahlung,0.000416
+21928,Vertriebsanfrage,Vertriebsanfrage,0.000847,Vertriebsanfrage,0.000361
+7165,Kundenservice,Reklamation/Rückgabe,0.00062,Reklamation/Rückgabe,0.000443
+14839,Technischer Support,Reklamation/Rückgabe,0.000698,Reklamation/Rückgabe,0.000346
+26015,Reklamation/Rückgabe,Vertriebsanfrage,0.000826,Vertriebsanfrage,0.000406
+28222,Reklamation/Rückgabe,Technischer Support,0.000722,Reklamation/Rückgabe,0.000412
+21835,Technischer Support,Technischer Support,0.000637,Technischer Support,0.000382
+26796,Kundenservice,Kundenservice,0.000627,Kundenservice,0.000412
+3243,Technischer Support,Technischer Support,0.000608,Reklamation/Rückgabe,0.000431
+25803,Vertriebsanfrage,Vertriebsanfrage,0.000663,Reklamation/Rückgabe,0.000365
+22152,Vertriebsanfrage,Vertriebsanfrage,0.000647,Vertriebsanfrage,0.000417
+24478,Rechnung/Zahlung,Rechnung/Zahlung,0.0005,Rechnung/Zahlung,0.000361
+5635,Vertriebsanfrage,Technischer Support,0.000681,Technischer Support,0.000435
+2011,Vertriebsanfrage,Vertriebsanfrage,0.000725,Vertriebsanfrage,0.000355
+24241,Technischer Support,Technischer Support,0.000661,Technischer Support,0.000373
+18100,Technischer Support,Technischer Support,0.00058,Technischer Support,0.000382
+8215,Kundenservice,Technischer Support,0.000583,Technischer Support,0.000412
+12123,Vertriebsanfrage,Kundenservice,0.000773,Kundenservice,0.000391
+4220,Technischer Support,Reklamation/Rückgabe,0.000715,Reklamation/Rückgabe,0.000425
+11591,Technischer Support,Rechnung/Zahlung,0.000607,Kundenservice,0.000406
+4319,Vertriebsanfrage,Rechnung/Zahlung,0.000752,Rechnung/Zahlung,0.000434
+5999,Vertriebsanfrage,Technischer Support,0.000613,Reklamation/Rückgabe,0.000349
+24197,Rechnung/Zahlung,Rechnung/Zahlung,0.000589,Rechnung/Zahlung,0.000394
+9016,Vertriebsanfrage,Technischer Support,0.000575,Vertriebsanfrage,0.000377
+20197,Reklamation/Rückgabe,Technischer Support,0.000645,Technischer Support,0.000406
+10822,Technischer Support,Technischer Support,0.000549,Technischer Support,0.000505
+9650,Rechnung/Zahlung,Vertriebsanfrage,0.000545,Vertriebsanfrage,0.0004
+644,Technischer Support,Rechnung/Zahlung,0.000718,Reklamation/Rückgabe,0.000461
+28261,Kundenservice,Technischer Support,0.00067,Technischer Support,0.000393
+17372,Reklamation/Rückgabe,Rechnung/Zahlung,0.000758,Reklamation/Rückgabe,0.000459
+2546,Rechnung/Zahlung,Rechnung/Zahlung,0.00071,Rechnung/Zahlung,0.000419
+7591,Kundenservice,Rechnung/Zahlung,0.000721,Rechnung/Zahlung,0.000445
+5617,Kundenservice,Kundenservice,0.000659,Kundenservice,0.000471
+8441,Technischer Support,Reklamation/Rückgabe,0.000585,Reklamation/Rückgabe,0.000358
+6305,Reklamation/Rückgabe,Technischer Support,0.000606,Technischer Support,0.000401
+13610,Technischer Support,Technischer Support,0.000636,Technischer Support,0.000394
+28452,Rechnung/Zahlung,Technischer Support,0.00057,Rechnung/Zahlung,0.000401
+6665,Vertriebsanfrage,Vertriebsanfrage,0.000524,Vertriebsanfrage,0.000408
+8054,Reklamation/Rückgabe,Technischer Support,0.000665,Technischer Support,0.000426
+11442,Technischer Support,Technischer Support,0.000615,Technischer Support,0.000388
+3660,Reklamation/Rückgabe,Vertriebsanfrage,0.000598,Vertriebsanfrage,0.000421
+23843,Vertriebsanfrage,Technischer Support,0.000489,Technischer Support,0.000406
+22319,Rechnung/Zahlung,Rechnung/Zahlung,0.000536,Rechnung/Zahlung,0.0004
+14048,Rechnung/Zahlung,Kundenservice,0.000715,Kundenservice,0.0004
+8252,Vertriebsanfrage,Reklamation/Rückgabe,0.000499,Reklamation/Rückgabe,0.000364
+11723,Technischer Support,Kundenservice,0.000661,Kundenservice,0.00037
+24465,Rechnung/Zahlung,Rechnung/Zahlung,0.00061,Rechnung/Zahlung,0.000369
+5664,Kundenservice,Technischer Support,0.000705,Technischer Support,0.000457
+24508,Rechnung/Zahlung,Rechnung/Zahlung,0.000648,Reklamation/Rückgabe,0.000394
+17556,Kundenservice,Rechnung/Zahlung,0.000537,Rechnung/Zahlung,0.000367
+45,Vertriebsanfrage,Vertriebsanfrage,0.000557,Vertriebsanfrage,0.000471
+2289,Kundenservice,Technischer Support,0.000624,Technischer Support,0.000449
+23260,Technischer Support,Kundenservice,0.000545,Kundenservice,0.000413
+18088,Rechnung/Zahlung,Rechnung/Zahlung,0.000494,Rechnung/Zahlung,0.000393
+27783,Vertriebsanfrage,Vertriebsanfrage,0.000522,Vertriebsanfrage,0.000388
+23484,Rechnung/Zahlung,Kundenservice,0.000653,Kundenservice,0.000377
+8647,Rechnung/Zahlung,Rechnung/Zahlung,0.00067,Rechnung/Zahlung,0.000402

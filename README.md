@@ -45,3 +45,13 @@ Erzeugt mit `00_datenaufbereitung.py`.
 | Vertriebsanfrage | Sales and Pre-Sales | 310 |
 | Kundenservice | Customer Service | 1.354 |
 | Technischer Support | Technical Support, Product Support, IT Support | 5.176 |
+
+## Ergebnisse
+- `results/baseline.csv`: Vorhersagen und Vorhersagezeiten der klassischen Verfahren
+- `results/zero_shot.csv`: Vorhersagen, Rohantworten, Tokens und Antwortzeiten des LLM (Lauf vom 16.10.2026)
+- `results/fehleranalyse.xlsx`: falsch klassifizierte Tickets des LLM
+- `results/ausgabe_01_baseline.txt`, `results/ausgabe_02_llm.txt`: Konsolenausgaben
+
+## Lizenz
+- Code: MIT, siehe `LICENSE`
+- Daten in `data/`: abgeleitet aus Tobi-Bueck/customer-support-tickets (Bück 2025, DOI 10.57967/hf/6184), CC BY-NC 4.0

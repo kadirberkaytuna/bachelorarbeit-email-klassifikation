@@ -1,0 +1,323 @@
+Ausgeführt am 16.10.2026, Modell gpt-6-luna, Prompt V1
+C:\Projekte\Bachelorarbeit\proto\.venv\Scripts\python.exe C:\Projekte\Bachelorarbeit\proto\02_llm_zero_shot.py
+2970: Technischer Support
+11148: Technischer Support
+23004: Technischer Support
+8842: Vertriebsanfrage
+12618: Technischer Support
+5455: Technischer Support
+1748: Technischer Support
+27831: Technischer Support
+16751: Technischer Support
+18972: Vertriebsanfrage
+21969: Technischer Support
+12365: Rechnung/Zahlung
+8537: Rechnung/Zahlung
+11541: Technischer Support
+19049: Rechnung/Zahlung
+20301: Vertriebsanfrage
+6047: Vertriebsanfrage
+6717: Kundenservice
+9949: Vertriebsanfrage
+13564: Rechnung/Zahlung
+14256: Technischer Support
+9285: Technischer Support
+2021: Technischer Support
+1144: Kundenservice
+4313: Technischer Support
+27530: Technischer Support
+2983: Kundenservice
+24484: Vertriebsanfrage
+10451: Vertriebsanfrage
+19719: Technischer Support
+28572: Rechnung/Zahlung
+13914: Rechnung/Zahlung
+8760: Technischer Support
+17914: Technischer Support
+16760: Kundenservice
+17533: Technischer Support
+22889: Vertriebsanfrage
+9669: Vertriebsanfrage
+2837: Vertriebsanfrage
+5046: Technischer Support
+15944: Technischer Support
+18054: Technischer Support
+2685: Vertriebsanfrage
+3051: Technischer Support
+7342: Technischer Support
+3132: Technischer Support
+20076: Technischer Support
+8970: Kundenservice
+15516: Technischer Support
+8809: Vertriebsanfrage
+15016: Vertriebsanfrage
+22311: Vertriebsanfrage
+19895: Technischer Support
+21073: Vertriebsanfrage
+11518: Technischer Support
+13764: Technischer Support
+24546: Vertriebsanfrage
+25079: Technischer Support
+24757: Vertriebsanfrage
+18524: Technischer Support
+7889: Technischer Support
+19185: Technischer Support
+5028: Vertriebsanfrage
+7863: Vertriebsanfrage
+9915: Technischer Support
+15279: Vertriebsanfrage
+10817: Technischer Support
+25024: Technischer Support
+26004: Vertriebsanfrage
+23455: Vertriebsanfrage
+26307: Technischer Support
+25351: Vertriebsanfrage
+27186: Technischer Support
+18058: Vertriebsanfrage
+12246: Technischer Support
+24846: Technischer Support
+8804: Technischer Support
+5945: Technischer Support
+6342: Kundenservice
+26828: Technischer Support
+28376: Vertriebsanfrage
+17695: Technischer Support
+27270: Technischer Support
+10192: Technischer Support
+26125: Vertriebsanfrage
+23143: Kundenservice
+15718: Technischer Support
+24647: Vertriebsanfrage
+24299: Vertriebsanfrage
+3160: Technischer Support
+25413: Kundenservice
+5421: Technischer Support
+28558: Technischer Support
+7024: Technischer Support
+18311: Technischer Support
+25151: Technischer Support
+2610: Vertriebsanfrage
+19258: Kundenservice
+8436: Technischer Support
+16991: Vertriebsanfrage
+9954: Kundenservice
+7345: Vertriebsanfrage
+5764: Technischer Support
+18640: Rechnung/Zahlung
+8945: Vertriebsanfrage
+16891: Technischer Support
+27466: Technischer Support
+6065: Vertriebsanfrage
+2181: Technischer Support
+13642: Vertriebsanfrage
+26788: Vertriebsanfrage
+24327: Vertriebsanfrage
+19061: Vertriebsanfrage
+18488: Kundenservice
+2466: Technischer Support
+19426: Technischer Support
+27823: Vertriebsanfrage
+4749: Technischer Support
+28038: Vertriebsanfrage
+5882: Technischer Support
+17895: Technischer Support
+25571: Rechnung/Zahlung
+4550: Vertriebsanfrage
+24748: Vertriebsanfrage
+9160: Technischer Support
+28375: Technischer Support
+12962: Technischer Support
+6797: Technischer Support
+586: Kundenservice
+8145: Technischer Support
+19245: Technischer Support
+9616: Technischer Support
+13431: Technischer Support
+4058: Technischer Support
+10270: Vertriebsanfrage
+9743: Vertriebsanfrage
+26497: Technischer Support
+18217: Technischer Support
+4207: Vertriebsanfrage
+13397: Technischer Support
+21403: Technischer Support
+22373: Technischer Support
+12823: Technischer Support
+20582: Kundenservice
+14099: Vertriebsanfrage
+22539: Technischer Support
+20262: Vertriebsanfrage
+22644: Technischer Support
+13597: Technischer Support
+8248: Vertriebsanfrage
+13827: Technischer Support
+12256: Vertriebsanfrage
+7354: Technischer Support
+2899: Vertriebsanfrage
+19593: Technischer Support
+5939: Kundenservice
+21799: Vertriebsanfrage
+27870: Vertriebsanfrage
+13316: Technischer Support
+25313: Technischer Support
+5304: Technischer Support
+27117: Vertriebsanfrage
+3482: Rechnung/Zahlung
+9519: Technischer Support
+3879: Vertriebsanfrage
+1128: Technischer Support
+17586: Technischer Support
+9686: Vertriebsanfrage
+19974: Rechnung/Zahlung
+1541: Technischer Support
+28312: Technischer Support
+20726: Technischer Support
+14919: Vertriebsanfrage
+21116: Technischer Support
+26134: Vertriebsanfrage
+7553: Technischer Support
+17766: Rechnung/Zahlung
+24700: Vertriebsanfrage
+24143: Vertriebsanfrage
+3846: Technischer Support
+8516: Technischer Support
+20233: Vertriebsanfrage
+18029: Vertriebsanfrage
+3339: Vertriebsanfrage
+6531: Vertriebsanfrage
+7164: Technischer Support
+6161: Technischer Support
+13684: Vertriebsanfrage
+4829: Technischer Support
+17654: Technischer Support
+14206: Technischer Support
+8709: Technischer Support
+13403: Technischer Support
+15340: Technischer Support
+18934: Technischer Support
+19613: Vertriebsanfrage
+8979: Vertriebsanfrage
+9244: Vertriebsanfrage
+7559: Kundenservice
+15236: Vertriebsanfrage
+15179: Technischer Support
+1300: Technischer Support
+22839: Vertriebsanfrage
+23548: Vertriebsanfrage
+9286: Vertriebsanfrage
+17495: Rechnung/Zahlung
+22267: Technischer Support
+21979: Vertriebsanfrage
+6407: Vertriebsanfrage
+23700: Technischer Support
+242: Reklamation/Rückgabe
+27738: Vertriebsanfrage
+15297: Rechnung/Zahlung
+9855: Technischer Support
+25297: Vertriebsanfrage
+1319: Technischer Support
+11537: Technischer Support
+26805: Technischer Support
+25492: Vertriebsanfrage
+26424: Technischer Support
+25567: Technischer Support
+23034: Technischer Support
+27687: Technischer Support
+19618: Vertriebsanfrage
+13103: Vertriebsanfrage
+14602: Vertriebsanfrage
+4461: Kundenservice
+23167: Vertriebsanfrage
+7982: Vertriebsanfrage
+26587: Technischer Support
+24252: Vertriebsanfrage
+26361: Vertriebsanfrage
+25667: Vertriebsanfrage
+15135: Technischer Support
+2025: Technischer Support
+26384: Kundenservice
+5065: Technischer Support
+27336: Vertriebsanfrage
+25395: Kundenservice
+8213: Technischer Support
+16260: Technischer Support
+22408: Technischer Support
+15936: Vertriebsanfrage
+25854: Technischer Support
+21928: Vertriebsanfrage
+7165: Vertriebsanfrage
+14839: Technischer Support
+26015: Vertriebsanfrage
+28222: Technischer Support
+21835: Technischer Support
+26796: Vertriebsanfrage
+3243: Technischer Support
+25803: Vertriebsanfrage
+22152: Vertriebsanfrage
+24478: Rechnung/Zahlung
+5635: Vertriebsanfrage
+2011: Vertriebsanfrage
+24241: Technischer Support
+18100: Technischer Support
+8215: Technischer Support
+12123: Vertriebsanfrage
+4220: Technischer Support
+11591: Vertriebsanfrage
+4319: Vertriebsanfrage
+5999: Kundenservice
+24197: Kundenservice
+9016: Technischer Support
+20197: Technischer Support
+10822: Technischer Support
+9650: Vertriebsanfrage
+644: Technischer Support
+28261: Technischer Support
+17372: Vertriebsanfrage
+2546: Rechnung/Zahlung
+7591: Kundenservice
+5617: Kundenservice
+8441: Technischer Support
+6305: Kundenservice
+13610: Technischer Support
+28452: Rechnung/Zahlung
+6665: Vertriebsanfrage
+8054: Technischer Support
+11442: Kundenservice
+3660: Technischer Support
+23843: Technischer Support
+22319: Vertriebsanfrage
+14048: Vertriebsanfrage
+8252: Technischer Support
+11723: Vertriebsanfrage
+24465: Vertriebsanfrage
+5664: Technischer Support
+24508: Rechnung/Zahlung
+17556: Vertriebsanfrage
+45: Vertriebsanfrage
+2289: Technischer Support
+23260: Kundenservice
+18088: Rechnung/Zahlung
+27783: Vertriebsanfrage
+23484: Vertriebsanfrage
+8647: Vertriebsanfrage
+
+===== Zero-Shot =====
+Modell: gpt-6-luna
+Accuracy: 0.343
+Ungültige Antworten: 0 von 300
+                      precision    recall  f1-score   support
+
+    Rechnung/Zahlung      1.000     0.300     0.462        60
+Reklamation/Rückgabe      1.000     0.017     0.033        60
+    Vertriebsanfrage      0.324     0.583     0.417        60
+       Kundenservice      0.280     0.117     0.165        60
+ Technischer Support      0.284     0.700     0.404        60
+
+            accuracy                          0.343       300
+           macro avg      0.578     0.343     0.296       300
+        weighted avg      0.578     0.343     0.296       300
+
+Tokens gesamt: 52827 Input, 4455 Output
+Ø Antwortzeit: 1.12 s pro E-Mail
+
+Process finished with exit code 0
