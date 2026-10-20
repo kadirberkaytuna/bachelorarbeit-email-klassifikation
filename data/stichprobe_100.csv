@@ -1,101 +1,101 @@
-Nr,ID,Label,Manuell
-1,25575,Technischer Support,Kundenservice
-2,28149,Vertriebsanfrage,Technischer Support
-3,13681,Kundenservice,Technischer Support
-4,5999,Vertriebsanfrage,Technischer Support
-5,3024,Vertriebsanfrage,Technischer Support
-6,6019,Reklamation/Rückgabe,Kundenservice
-7,26206,Reklamation/Rückgabe,Technischer Support
-8,15147,Technischer Support,Technischer Support
-9,20727,Rechnung/Zahlung,Rechnung/Zahlung
-10,24434,Rechnung/Zahlung,Kundenservice
-11,10782,Rechnung/Zahlung,Kundenservice
-12,8970,Reklamation/Rückgabe,Kundenservice
-13,12962,Kundenservice,Technischer Support
-14,4361,Reklamation/Rückgabe,Kundenservice
-15,25383,Technischer Support,Kundenservice
-16,13488,Rechnung/Zahlung,Rechnung/Zahlung
-17,22399,Kundenservice,Technischer Support
-18,22554,Kundenservice,Kundenservice
-19,21957,Rechnung/Zahlung,Technischer Support
-20,9676,Reklamation/Rückgabe,Vertriebsanfrage
-21,26492,Vertriebsanfrage,Vertriebsanfrage
-22,18143,Technischer Support,Vertriebsanfrage
-23,19973,Reklamation/Rückgabe,Vertriebsanfrage
-24,5635,Vertriebsanfrage,Technischer Support
-25,11324,Kundenservice,Technischer Support
-26,7374,Rechnung/Zahlung,Rechnung/Zahlung
-27,26476,Vertriebsanfrage,Vertriebsanfrage
-28,28297,Technischer Support,Technischer Support
-29,27626,Rechnung/Zahlung,Kundenservice
-30,10744,Kundenservice,Technischer Support
-31,11419,Rechnung/Zahlung,Technischer Support
-32,17190,Vertriebsanfrage,Technischer Support
-33,19257,Technischer Support,Kundenservice
-34,6568,Reklamation/Rückgabe,Technischer Support
-35,27729,Technischer Support,Technischer Support
-36,26313,Rechnung/Zahlung,Technischer Support
-37,24349,Kundenservice,Kundenservice
-38,27132,Kundenservice,Technischer Support
-39,26285,Reklamation/Rückgabe,Kundenservice
-40,16429,Rechnung/Zahlung,Technischer Support
-41,4638,Vertriebsanfrage,Technischer Support
-42,9343,Reklamation/Rückgabe,Technischer Support
-43,9063,Rechnung/Zahlung,Kundenservice
-44,8293,Technischer Support,Kundenservice
-45,10391,Reklamation/Rückgabe,Technischer Support
-46,11565,Rechnung/Zahlung,Technischer Support
-47,26705,Technischer Support,Kundenservice
-48,5143,Reklamation/Rückgabe,Technischer Support
-49,22582,Kundenservice,Kundenservice
-50,13041,Rechnung/Zahlung,Kundenservice
-51,25854,Reklamation/Rückgabe,Kundenservice
-52,7698,Rechnung/Zahlung,Kundenservice
-53,16703,Rechnung/Zahlung,Rechnung/Zahlung
-54,25721,Reklamation/Rückgabe,Technischer Support
-55,24197,Rechnung/Zahlung,Kundenservice
-56,16647,Kundenservice,Kundenservice
-57,24168,Rechnung/Zahlung,Rechnung/Zahlung
-58,22903,Kundenservice,Kundenservice
-59,4386,Reklamation/Rückgabe,Technischer Support
-60,3185,Technischer Support,Technischer Support
-61,493,Vertriebsanfrage,Vertriebsanfrage
-62,4904,Technischer Support,Kundenservice
-63,26189,Vertriebsanfrage,Technischer Support
-64,5744,Vertriebsanfrage,Technischer Support
-65,6625,Vertriebsanfrage,Vertriebsanfrage
-66,22043,Kundenservice,Kundenservice
-67,7177,Vertriebsanfrage,Vertriebsanfrage
-68,8741,Kundenservice,Kundenservice
-69,20262,Kundenservice,Kundenservice
-70,20564,Technischer Support,Technischer Support
-71,944,Kundenservice,Technischer Support
-72,1060,Vertriebsanfrage,Kundenservice
-73,14413,Vertriebsanfrage,Vertriebsanfrage
-74,23054,Vertriebsanfrage,Vertriebsanfrage
-75,7078,Technischer Support,Vertriebsanfrage
-76,13176,Vertriebsanfrage,Kundenservice
-77,11323,Kundenservice,Kundenservice
-78,24430,Reklamation/Rückgabe,Kundenservice
-79,22430,Technischer Support,Kundenservice
-80,15016,Vertriebsanfrage,Kundenservice
-81,27831,Kundenservice,Technischer Support
-82,28432,Technischer Support,Technischer Support
-83,21438,Reklamation/Rückgabe,Kundenservice
-84,5046,Reklamation/Rückgabe,Technischer Support
-85,21363,Rechnung/Zahlung,Rechnung/Zahlung
-86,27110,Vertriebsanfrage,Technischer Support
-87,25067,Reklamation/Rückgabe,Technischer Support
-88,4795,Rechnung/Zahlung,Rechnung/Zahlung
-89,27657,Reklamation/Rückgabe,Kundenservice
-90,27406,Technischer Support,Technischer Support
-91,8571,Technischer Support,Technischer Support
-92,17453,Kundenservice,Technischer Support
-93,20174,Technischer Support,Technischer Support
-94,16726,Technischer Support,Kundenservice
-95,25395,Reklamation/Rückgabe,Kundenservice
-96,1054,Kundenservice,Kundenservice
-97,18481,Kundenservice,Vertriebsanfrage
-98,25167,Rechnung/Zahlung,Kundenservice
-99,6989,Technischer Support,Kundenservice
-100,14399,Vertriebsanfrage,Kundenservice
+Nr,ID,Label,Manuell,Grenzfall
+1,25575,Technischer Support,Kundenservice,Nein
+2,28149,Vertriebsanfrage,Technischer Support,Nein
+3,13681,Kundenservice,Technischer Support,Nein
+4,5999,Vertriebsanfrage,Technischer Support,Nein
+5,3024,Vertriebsanfrage,Technischer Support,Ja
+6,6019,Reklamation/Rückgabe,Kundenservice,Nein
+7,26206,Reklamation/Rückgabe,Technischer Support,Ja
+8,15147,Technischer Support,Technischer Support,Nein
+9,20727,Rechnung/Zahlung,Rechnung/Zahlung,Nein
+10,24434,Rechnung/Zahlung,Kundenservice,Nein
+11,10782,Rechnung/Zahlung,Kundenservice,Nein
+12,8970,Reklamation/Rückgabe,Kundenservice,Ja
+13,12962,Kundenservice,Technischer Support,Nein
+14,4361,Reklamation/Rückgabe,Kundenservice,Nein
+15,25383,Technischer Support,Kundenservice,Ja
+16,13488,Rechnung/Zahlung,Rechnung/Zahlung,Nein
+17,22399,Kundenservice,Technischer Support,Nein
+18,22554,Kundenservice,Kundenservice,Nein
+19,21957,Rechnung/Zahlung,Technischer Support,Ja
+20,9676,Reklamation/Rückgabe,Vertriebsanfrage,Ja
+21,26492,Vertriebsanfrage,Vertriebsanfrage,Nein
+22,18143,Technischer Support,Vertriebsanfrage,Nein
+23,19973,Reklamation/Rückgabe,Vertriebsanfrage,Nein
+24,5635,Vertriebsanfrage,Technischer Support,Ja
+25,11324,Kundenservice,Technischer Support,Nein
+26,7374,Rechnung/Zahlung,Rechnung/Zahlung,Nein
+27,26476,Vertriebsanfrage,Vertriebsanfrage,Ja
+28,28297,Technischer Support,Technischer Support,Nein
+29,27626,Rechnung/Zahlung,Kundenservice,Ja
+30,10744,Kundenservice,Technischer Support,Nein
+31,11419,Rechnung/Zahlung,Technischer Support,Ja
+32,17190,Vertriebsanfrage,Technischer Support,Nein
+33,19257,Technischer Support,Kundenservice,Nein
+34,6568,Reklamation/Rückgabe,Technischer Support,Nein
+35,27729,Technischer Support,Technischer Support,Nein
+36,26313,Rechnung/Zahlung,Technischer Support,Nein
+37,24349,Kundenservice,Kundenservice,Nein
+38,27132,Kundenservice,Technischer Support,Nein
+39,26285,Reklamation/Rückgabe,Kundenservice,Ja
+40,16429,Rechnung/Zahlung,Technischer Support,Ja
+41,4638,Vertriebsanfrage,Technischer Support,Nein
+42,9343,Reklamation/Rückgabe,Technischer Support,Nein
+43,9063,Rechnung/Zahlung,Kundenservice,Nein
+44,8293,Technischer Support,Kundenservice,Nein
+45,10391,Reklamation/Rückgabe,Technischer Support,Nein
+46,11565,Rechnung/Zahlung,Technischer Support,Nein
+47,26705,Technischer Support,Kundenservice,Ja
+48,5143,Reklamation/Rückgabe,Technischer Support,Nein
+49,22582,Kundenservice,Kundenservice,Nein
+50,13041,Rechnung/Zahlung,Kundenservice,Nein
+51,25854,Reklamation/Rückgabe,Kundenservice,Nein
+52,7698,Rechnung/Zahlung,Kundenservice,Nein
+53,16703,Rechnung/Zahlung,Rechnung/Zahlung,Nein
+54,25721,Reklamation/Rückgabe,Technischer Support,Nein
+55,24197,Rechnung/Zahlung,Kundenservice,Ja
+56,16647,Kundenservice,Kundenservice,Ja
+57,24168,Rechnung/Zahlung,Rechnung/Zahlung,Nein
+58,22903,Kundenservice,Kundenservice,Nein
+59,4386,Reklamation/Rückgabe,Technischer Support,Nein
+60,3185,Technischer Support,Technischer Support,Nein
+61,493,Vertriebsanfrage,Vertriebsanfrage,Nein
+62,4904,Technischer Support,Kundenservice,Ja
+63,26189,Vertriebsanfrage,Technischer Support,Nein
+64,5744,Vertriebsanfrage,Technischer Support,Nein
+65,6625,Vertriebsanfrage,Vertriebsanfrage,Ja
+66,22043,Kundenservice,Kundenservice,Ja
+67,7177,Vertriebsanfrage,Vertriebsanfrage,Nein
+68,8741,Kundenservice,Kundenservice,Nein
+69,20262,Kundenservice,Kundenservice,Nein
+70,20564,Technischer Support,Technischer Support,Nein
+71,944,Kundenservice,Technischer Support,Ja
+72,1060,Vertriebsanfrage,Kundenservice,Ja
+73,14413,Vertriebsanfrage,Vertriebsanfrage,Ja
+74,23054,Vertriebsanfrage,Vertriebsanfrage,Ja
+75,7078,Technischer Support,Vertriebsanfrage,Nein
+76,13176,Vertriebsanfrage,Kundenservice,Ja
+77,11323,Kundenservice,Kundenservice,Nein
+78,24430,Reklamation/Rückgabe,Kundenservice,Ja
+79,22430,Technischer Support,Kundenservice,Ja
+80,15016,Vertriebsanfrage,Kundenservice,Ja
+81,27831,Kundenservice,Technischer Support,Nein
+82,28432,Technischer Support,Technischer Support,Nein
+83,21438,Reklamation/Rückgabe,Kundenservice,Ja
+84,5046,Reklamation/Rückgabe,Technischer Support,Nein
+85,21363,Rechnung/Zahlung,Rechnung/Zahlung,Nein
+86,27110,Vertriebsanfrage,Technischer Support,Nein
+87,25067,Reklamation/Rückgabe,Technischer Support,Nein
+88,4795,Rechnung/Zahlung,Rechnung/Zahlung,Ja
+89,27657,Reklamation/Rückgabe,Kundenservice,Nein
+90,27406,Technischer Support,Technischer Support,Nein
+91,8571,Technischer Support,Technischer Support,Nein
+92,17453,Kundenservice,Technischer Support,Nein
+93,20174,Technischer Support,Technischer Support,Nein
+94,16726,Technischer Support,Kundenservice,Ja
+95,25395,Reklamation/Rückgabe,Kundenservice,Nein
+96,1054,Kundenservice,Kundenservice,Nein
+97,18481,Kundenservice,Vertriebsanfrage,Ja
+98,25167,Rechnung/Zahlung,Kundenservice,Nein
+99,6989,Technischer Support,Kundenservice,Nein
+100,14399,Vertriebsanfrage,Kundenservice,Nein
