@@ -34,6 +34,14 @@ pip install -r requirements.txt
    Wertet alle drei Verfahren zusätzlich gegen die manuell geprüfte Kategorie aus. Naive Bayes und
    logistische Regression werden dafür ohne die geprüften Tickets trainiert. Die LLM-Antworten werden
    in `results/stichprobe_llm.csv` gespeichert und bei einem erneuten Aufruf von dort geladen.
+5. Auswertung (nach Schritt 1, 2 und 4, kein API-Schlüssel nötig):
+```
+   python 05_auswertung.py
+```
+   Berechnet alle Kennzahlen für Kapitel 6 der Arbeit aus den gespeicherten Ergebnisdateien:
+   Kennzahlen je Verfahren und Kategorie, Konfusionsmatrizen, Hochrechnung der Stichprobe, Kosten und
+   Antwortzeiten. Prüft außerdem den Sprachfilter aus Schritt 0 mit lingua (lädt dafür die Quelldatei
+   von Hugging Face). Es wird nichts neu trainiert und keine API aufgerufen.
 
 ## Umgebung
 Python 3.13.6, Paketversionen siehe `requirements.txt`. LLM: `gpt-6-luna` über die OpenAI API
@@ -55,7 +63,15 @@ Erzeugt mit `00_datenaufbereitung.py`.
 
 `data/stichprobe_100.csv`: 100 Tickets aus `tickets_de.csv` (20 je Kategorie), deren Label manuell
 geprüft wurde. Spalte `Label` ist die Kategorie des Datensatzes, `Manuell` die inhaltlich passende
-Kategorie nach eigener Prüfung. Die Labels des Datensatzes wurden nicht verändert.
+Kategorie nach eigener Prüfung, `Grenzfall` markiert Fälle, bei denen auch eine andere Zuordnung
+vertretbar wäre. Die Labels des Datensatzes wurden nicht verändert. Die Tickets wurden
+je Kategorie zufällig aus allen 8.110 Tickets gezogen:
+```
+tickets = pd.read_csv("data/tickets_de.csv")  # bereits nach Kategorie und ID sortiert
+stichprobe = pd.concat([tickets[tickets["Kategorie"] == k].sample(20, random_state=42)
+                        for k in ["Rechnung/Zahlung", "Reklamation/Rückgabe", "Vertriebsanfrage",
+                                  "Kundenservice", "Technischer Support"]]).sample(frac=1, random_state=42)
+```
 
 ## Ergebnisse
 - `results/baseline.csv`: Vorhersagen und Vorhersagezeiten der klassischen Verfahren
@@ -63,7 +79,8 @@ Kategorie nach eigener Prüfung. Die Labels des Datensatzes wurden nicht veränd
 - `results/fehleranalyse.xlsx`: falsch klassifizierte Tickets des LLM
 - `results/stichprobe_llm.csv`: Antworten des LLM auf den 100 geprüften Tickets
 - `results/stichprobe.csv`: Vorhersagen aller drei Verfahren auf den 100 geprüften Tickets
-- `results/ausgabe_01_baseline.txt`, `results/ausgabe_02_llm.txt`: Konsolenausgaben
+- `results/ausgabe_01_baseline.txt`, `results/ausgabe_02_llm.txt`, `results/ausgabe_04_stichprobe.txt`,
+  `results/ausgabe_05_auswertung.txt`: Konsolenausgaben
 
 ## Lizenz
 - Code: MIT, siehe `LICENSE`

@@ -1,0 +1,129 @@
+Ausgeführt am 20.10.2026
+
+C:\Projekte\Bachelorarbeit\proto\.venv\Scripts\python.exe C:\Projekte\Bachelorarbeit\proto\05_auswertung.py
+===== 6.1 Klassifikationsgüte (300 Testtickets) =====
+
+Tabelle 6: Genauigkeit und Makro-Durchschnitt
+  Naive Bayes              Genauigkeit 36.0% (108 von 300), Precision 38.8%, Recall 36.0%, F1 36.1%
+  Logistische Regression   Genauigkeit 43.0% (129 von 300), Precision 43.4%, Recall 43.0%, F1 43.0%
+  GPT-6 Luna               Genauigkeit 34.3% (103 von 300), Precision 57.8%, Recall 34.3%, F1 29.6%
+
+Tabelle 7 und Text: Precision / Recall / F1 je Kategorie
+  Naive Bayes
+    Rechnung/Zahlung        53.6%  50.0%  51.7%
+    Reklamation/Rückgabe    38.2%  21.7%  27.7%
+    Vertriebsanfrage        48.8%  35.0%  40.8%
+    Kundenservice           28.1%  26.7%  27.4%
+    Technischer Support     25.5%  46.7%  32.9%
+  Logistische Regression
+    Rechnung/Zahlung        65.0%  65.0%  65.0%
+    Reklamation/Rückgabe    43.9%  41.7%  42.7%
+    Vertriebsanfrage        48.1%  43.3%  45.6%
+    Kundenservice           28.6%  23.3%  25.7%
+    Technischer Support     31.2%  41.7%  35.7%
+  GPT-6 Luna
+    Rechnung/Zahlung       100.0%  30.0%  46.2%
+    Reklamation/Rückgabe   100.0%   1.7%   3.3%
+    Vertriebsanfrage        32.4%  58.3%  41.7%
+    Kundenservice           28.0%  11.7%  16.5%
+    Technischer Support     28.4%  70.0%  40.4%
+
+Anzahl der Vorhersagen je Kategorie (je Kategorie 60 Testtickets)
+  Naive Bayes              RZ 56, RR 34, VA 43, KS 57, TS 110
+  Logistische Regression   RZ 60, RR 57, VA 54, KS 49, TS 80
+  GPT-6 Luna               RZ 18, RR 1, VA 108, KS 25, TS 148
+
+Zusatz: McNemar-Test (Tickets, die nur das erste bzw. nur das zweite Verfahren richtig hat)
+  Logistische Regression vs. GPT-6 Luna: 69 zu 43, p = 0.0178
+  Naive Bayes vs. GPT-6 Luna: 51 zu 46, p = 0.6849
+  Logistische Regression vs. Naive Bayes: 33 zu 12, p = 0.0025
+  95%-Konfidenzintervall Genauigkeit Naive Bayes: 30.8% bis 41.6%
+  95%-Konfidenzintervall Genauigkeit Logistische Regression: 37.5% bis 48.7%
+  95%-Konfidenzintervall Genauigkeit GPT-6 Luna: 29.2% bis 39.9%
+
+===== 6.2.1 Konfusionsmatrizen (Zeilen = Label, Spalten = Vorhersage) =====
+
+Naive Bayes: 192 Abweichungen vom Label
+    RZ  RR  VA  KS  TS
+RZ  30   4   2  10  14
+RR   7  13   7   7  26
+VA   7   4  21  12  16
+KS   5   5   8  16  26
+TS   7   8   5  12  28
+  Abweichungen nach Vorhersage: RZ 26, RR 21, VA 22, KS 41, TS 82
+
+Logistische Regression: 171 Abweichungen vom Label
+    RZ  RR  VA  KS  TS
+RZ  39   3   3  10   5
+RR   6  25  10   4  15
+VA   5   7  26  10  12
+KS   6   9   8  14  23
+TS   4  13   7  11  25
+  Abweichungen nach Vorhersage: RZ 21, RR 32, VA 28, KS 35, TS 55
+
+GPT-6 Luna: 197 Abweichungen vom Label
+    RZ  RR  VA  KS  TS
+RZ  18   0  24   1  17
+RR   0   1  14   8  37
+VA   0   0  35   3  22
+KS   0   0  23   7  30
+TS   0   0  12   6  42
+  Abweichungen nach Vorhersage: RZ 0, RR 0, VA 73, KS 18, TS 106
+
+===== 6.2.2 Qualität der Labels (100 manuell geprüfte Tickets) =====
+
+Tabelle 9
+  Rechnung/Zahlung        7 von 20 passen   stattdessen: Kundenservice 8, Technischer Support 5
+  Reklamation/Rückgabe    0 von 20 passen   stattdessen: Kundenservice 9, Technischer Support 9, Vertriebsanfrage 2
+  Vertriebsanfrage        7 von 20 passen   stattdessen: Technischer Support 9, Kundenservice 4
+  Kundenservice          10 von 20 passen   stattdessen: Technischer Support 9, Vertriebsanfrage 1
+  Technischer Support     9 von 20 passen   stattdessen: Kundenservice 9, Vertriebsanfrage 2
+  Summe: 33 von 100
+
+Falsche Labels: 67, davon Grenzfälle: 23
+Geschätzter Anteil korrekter Labels im Datensatz: 42% (Grenzfälle als korrekt gezählt: 65%)
+
+Sprachfilter: 12249 Tickets mit Sprachangabe 'de'
+  laut lingua englisch: 3348 (27%)
+  von der Heuristik behalten: 8754, davon laut lingua deutsch: 8754
+  deutsche Tickets, die die Heuristik verworfen hat: 147 (Länge im Median 6 Wörter, alle Tickets: 52 Wörter)
+
+===== 6.2.3 Zusatzauswertung: Abweichungen des LLM vom Label (100 geprüfte Tickets) =====
+Ergebnisse von 04_stichprobe.py, hier aufgeschlüsselt nach Label und Vorhersage des LLM.
+'davon geprüft gleich' = die manuelle Prüfung ergab dieselbe Kategorie wie das LLM
+
+  Label KS → LLM TS: 10, davon geprüft gleich: 9
+  Label KS → LLM VA:  9, davon geprüft gleich: 1
+  Label RZ → LLM KS:  3, davon geprüft gleich: 3
+  Label RZ → LLM TS:  6, davon geprüft gleich: 4
+  Label RZ → LLM VA:  6, davon geprüft gleich: 0
+  Label RR → LLM KS:  3, davon geprüft gleich: 3
+  Label RR → LLM TS: 12, davon geprüft gleich: 9
+  Label RR → LLM VA:  5, davon geprüft gleich: 2
+  Label TS → LLM KS:  2, davon geprüft gleich: 2
+  Label TS → LLM VA:  9, davon geprüft gleich: 2
+  Label VA → LLM KS:  4, davon geprüft gleich: 2
+  Label VA → LLM TS:  8, davon geprüft gleich: 7
+
+Zusatz: McNemar-Test und 95%-Konfidenzintervall gegen die geprüfte Kategorie
+  LLM vs. Logistische Regression: 30 zu 8, p = 0.0005
+  LLM vs. Naive Bayes: 21 zu 11, p = 0.1102
+  Naive Bayes vs. Logistische Regression: 15 zu 3, p = 0.0075
+  Naive Bayes: 56%, Konfidenzintervall 46% bis 65%
+  Logistische Regression: 44%, Konfidenzintervall 35% bis 54%
+  LLM: 66%, Konfidenzintervall 56% bis 75%
+
+===== 6.3 Kosten und Antwortzeit (300 Testtickets) =====
+
+Tokens: 52827 Eingabe, 4455 Ausgabe
+  pro E-Mail im Mittel: 176 Eingabe, 15 Ausgabe (Ausgabe zwischen 14 und 17)
+Kosten: 0.0075 US-Dollar für 300 E-Mails, 0.025 pro 1.000, 0.25 pro 10.000
+
+GPT-6 Luna: Mittel 1.12 s, Median 1.04 s, Minimum 0.81 s, Maximum 2.95 s (ID 2970, Position 1 im Lauf)
+  Antworten über 5 Sekunden (NFA4): 0
+Naive Bayes: Mittel 0.57 ms, Maximum 3.47 ms
+Logistische Regression: Mittel 0.42 ms, Maximum 0.74 ms
+GPT-6 Luna braucht im Mittel 2670-mal so lange wie die logistische Regression
+Trainingszeiten: siehe Konsolenausgabe von 01_baseline.py (results/ausgabe_01_baseline.txt)
+
+Process finished with exit code 0
