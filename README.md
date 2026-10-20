@@ -27,6 +27,13 @@ pip install -r requirements.txt
 ```
    python 03_fehleranalyse.py
 ```
+4. Zusatzauswertung auf den 100 manuell geprüften Tickets (nach Schritt 1, API-Schlüssel nötig):
+```
+   python 04_stichprobe.py
+```
+   Wertet alle drei Verfahren zusätzlich gegen die manuell geprüfte Kategorie aus. Naive Bayes und
+   logistische Regression werden dafür ohne die geprüften Tickets trainiert. Die LLM-Antworten werden
+   in `results/stichprobe_llm.csv` gespeichert und bei einem erneuten Aufruf von dort geladen.
 
 ## Umgebung
 Python 3.13.6, Paketversionen siehe `requirements.txt`. LLM: `gpt-6-luna` über die OpenAI API
@@ -46,10 +53,16 @@ Erzeugt mit `00_datenaufbereitung.py`.
 | Kundenservice | Customer Service | 1.354 |
 | Technischer Support | Technical Support, Product Support, IT Support | 5.176 |
 
+`data/stichprobe_100.csv`: 100 Tickets aus `tickets_de.csv` (20 je Kategorie), deren Label manuell
+geprüft wurde. Spalte `Label` ist die Kategorie des Datensatzes, `Manuell` die inhaltlich passende
+Kategorie nach eigener Prüfung. Die Labels des Datensatzes wurden nicht verändert.
+
 ## Ergebnisse
 - `results/baseline.csv`: Vorhersagen und Vorhersagezeiten der klassischen Verfahren
 - `results/zero_shot.csv`: Vorhersagen, Rohantworten, Tokens und Antwortzeiten des LLM (Lauf vom 16.10.2026)
 - `results/fehleranalyse.xlsx`: falsch klassifizierte Tickets des LLM
+- `results/stichprobe_llm.csv`: Antworten des LLM auf den 100 geprüften Tickets
+- `results/stichprobe.csv`: Vorhersagen aller drei Verfahren auf den 100 geprüften Tickets
 - `results/ausgabe_01_baseline.txt`, `results/ausgabe_02_llm.txt`: Konsolenausgaben
 
 ## Lizenz
