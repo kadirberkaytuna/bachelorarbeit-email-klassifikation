@@ -1,0 +1,161 @@
+10.20.2026
+
+C:\Projekte\Bachelorarbeit\proto\.venv\Scripts\python.exe C:\Projekte\Bachelorarbeit\proto\04_stichprobe.py
+Geprüfte Tickets: 100, davon im Testset: 11, im Trainingsset: 53
+Training ohne geprüfte Tickets: 1147 Tickets (53 entfernt)
+
+25575: Vertriebsanfrage
+28149: Technischer Support
+13681: Technischer Support
+5999: Kundenservice
+3024: Technischer Support
+6019: Technischer Support
+26206: Technischer Support
+15147: Technischer Support
+20727: Rechnung/Zahlung
+24434: Kundenservice
+10782: Vertriebsanfrage
+8970: Kundenservice
+12962: Technischer Support
+4361: Vertriebsanfrage
+25383: Vertriebsanfrage
+13488: Rechnung/Zahlung
+22399: Technischer Support
+22554: Vertriebsanfrage
+21957: Vertriebsanfrage
+9676: Vertriebsanfrage
+26492: Vertriebsanfrage
+18143: Vertriebsanfrage
+19973: Vertriebsanfrage
+5635: Kundenservice
+11324: Technischer Support
+7374: Vertriebsanfrage
+26476: Vertriebsanfrage
+28297: Technischer Support
+27626: Vertriebsanfrage
+10744: Technischer Support
+11419: Technischer Support
+17190: Technischer Support
+19257: Vertriebsanfrage
+6568: Technischer Support
+27729: Technischer Support
+26313: Technischer Support
+24349: Vertriebsanfrage
+27132: Technischer Support
+26285: Vertriebsanfrage
+16429: Technischer Support
+4638: Technischer Support
+9343: Technischer Support
+9063: Technischer Support
+8293: Vertriebsanfrage
+10391: Technischer Support
+11565: Technischer Support
+26705: Kundenservice
+5143: Technischer Support
+22582: Vertriebsanfrage
+13041: Vertriebsanfrage
+25854: Technischer Support
+7698: Kundenservice
+16703: Rechnung/Zahlung
+25721: Technischer Support
+24197: Kundenservice
+16647: Vertriebsanfrage
+24168: Rechnung/Zahlung
+22903: Vertriebsanfrage
+4386: Technischer Support
+3185: Technischer Support
+493: Vertriebsanfrage
+4904: Vertriebsanfrage
+26189: Technischer Support
+5744: Technischer Support
+6625: Vertriebsanfrage
+22043: Vertriebsanfrage
+7177: Vertriebsanfrage
+8741: Kundenservice
+20262: Vertriebsanfrage
+20564: Technischer Support
+944: Technischer Support
+1060: Technischer Support
+14413: Vertriebsanfrage
+23054: Vertriebsanfrage
+7078: Vertriebsanfrage
+13176: Kundenservice
+11323: Technischer Support
+24430: Technischer Support
+22430: Kundenservice
+15016: Vertriebsanfrage
+27831: Technischer Support
+28432: Technischer Support
+21438: Kundenservice
+5046: Technischer Support
+21363: Rechnung/Zahlung
+27110: Technischer Support
+25067: Technischer Support
+4795: Technischer Support
+27657: Vertriebsanfrage
+27406: Technischer Support
+8571: Technischer Support
+17453: Technischer Support
+20174: Technischer Support
+16726: Vertriebsanfrage
+25395: Kundenservice
+1054: Vertriebsanfrage
+18481: Vertriebsanfrage
+25167: Vertriebsanfrage
+6989: Vertriebsanfrage
+14399: Kundenservice
+
+LLM-Antworten gespeichert in results/stichprobe_llm.csv (Modell: gpt-6-luna)
+
+===== Genauigkeit auf den 100 geprüften Tickets =====
+Verfahren                 gegen Label  gegen Manuell
+Naive Bayes                     36.0%          56.0%
+Logistische Regression          37.0%          44.0%
+LLM                             23.0%          66.0%
+Ungültige LLM-Antworten: 0 von 100
+Vergleich: immer 'Technischer Support' wählen = 41.0% gegen Manuell
+Verteilung Manuell: {'Technischer Support': 41, 'Kundenservice': 40, 'Vertriebsanfrage': 12, 'Rechnung/Zahlung': 7}
+
+===== Tickets mit falschem Label (67) =====
+Folgt die Vorhersage dem Label des Datensatzes oder dem Inhalt (manuelle Kategorie)?
+Naive Bayes              wie Label:  13   wie Inhalt:  33   weder noch:  21
+Logistische Regression   wie Label:  17   wie Inhalt:  24   weder noch:  26
+LLM                      wie Label:   1   wie Inhalt:  44   weder noch:  22
+
+===== Tickets mit korrektem Label (33) =====
+Naive Bayes              richtig:  23 von 33
+Logistische Regression   richtig:  20 von 33
+LLM                      richtig:  22 von 33
+
+===== Konfusionsmatrizen gegen die manuelle Kategorie =====
+Zeilen = manuelle Kategorie, Spalten = Vorhersage
+
+Naive Bayes
+                      Rechnung/Zahlung  Reklamation/Rückgabe  Vertriebsanfrage  Kundenservice  Technischer Support
+Rechnung/Zahlung                     6                     0                 0              0                    1
+Reklamation/Rückgabe                 0                     0                 0              0                    0
+Vertriebsanfrage                     3                     0                 6              2                    1
+Kundenservice                       12                     0                 9             13                    6
+Technischer Support                  3                     6                 0              1                   31
+
+Logistische Regression
+                      Rechnung/Zahlung  Reklamation/Rückgabe  Vertriebsanfrage  Kundenservice  Technischer Support
+Rechnung/Zahlung                     6                     1                 0              0                    0
+Reklamation/Rückgabe                 0                     0                 0              0                    0
+Vertriebsanfrage                     2                     1                 8              1                    0
+Kundenservice                        9                     6                11             10                    4
+Technischer Support                  2                    14                 3              2                   20
+
+LLM
+                      Rechnung/Zahlung  Reklamation/Rückgabe  Vertriebsanfrage  Kundenservice  Technischer Support
+Rechnung/Zahlung                     5                     0                 1              0                    1
+Reklamation/Rückgabe                 0                     0                 0              0                    0
+Vertriebsanfrage                     0                     0                12              0                    0
+Kundenservice                        0                     0                23             11                    6
+Technischer Support                  0                     0                 1              2                   38
+
+LLM-Wiederholung: 10 von 11 Tickets erhielten dieselbe Kategorie wie im Lauf aus Schritt 2
+
+Vorhersagen gespeichert in results/stichprobe.csv
+
+Process finished with exit code 0
