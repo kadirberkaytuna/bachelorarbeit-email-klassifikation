@@ -9,15 +9,20 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.metrics import classification_report
 
+# Startwert (Seed) für den Zufallsgenerator: Mit demselben Seed werden bei jeder Ausführung
+# dieselben Tickets gezogen und gleich aufgeteilt. Dadurch sind die Ergebnisse reproduzierbar.
 SEED = 42
 PRO_KATEGORIE = 300  # max. Tickets pro Kategorie, damit die Klassen ausgeglichen sind
 
 # 1. Daten laden und ausbalancieren
 df = pd.read_csv("data/tickets_de.csv")
 df["Eingabe"] = df["Betreff"].fillna("") + " " + df["Text"].fillna("")
+# Je Kategorie zufällig 300 Tickets ziehen, random_state=SEED sorgt für immer dieselbe Auswahl
 df = df.groupby("Kategorie").sample(n=PRO_KATEGORIE, random_state=SEED)
 
 # 2. Train/Test-Split (80/20, Kategorien gleich verteilt)
+# stratify: jede Kategorie ist in Training und Test im gleichen Verhältnis vertreten
+# random_state=SEED: bei jeder Ausführung dieselbe Aufteilung
 train, test = train_test_split(df, test_size=0.2, stratify=df["Kategorie"], random_state=SEED)
 test.to_csv("data/testset.csv", index=False, lineterminator="\n")  # dasselbe Testset nutzt später das LLM
 train.to_csv("data/trainset.csv", index=False, lineterminator="\n")

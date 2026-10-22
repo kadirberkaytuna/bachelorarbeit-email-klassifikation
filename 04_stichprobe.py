@@ -29,6 +29,8 @@ stichprobe["Eingabe"] = stichprobe["Betreff"] + " " + stichprobe["Text"]  # wie 
 
 train = pd.read_csv("data/trainset.csv")
 entfernt = train["ID"].isin(stichprobe["ID"]).sum()
+# Geprüfte Tickets aus dem Training entfernen: isin prüft für jedes Trainingsticket, ob seine ID
+# in der Stichprobe vorkommt, ~ kehrt das Ergebnis um. Übrig bleiben nur nicht geprüfte Tickets.
 train = train[~train["ID"].isin(stichprobe["ID"])]
 test = pd.read_csv("data/testset.csv")
 print(f"Geprüfte Tickets: {len(stichprobe)}, davon im Testset: {stichprobe['ID'].isin(test['ID']).sum()}, "
