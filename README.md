@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
    python 05_auswertung.py
 ```
-   Berechnet alle Kennzahlen für Kapitel 6 der Arbeit aus den gespeicherten Ergebnisdateien:
+   Berechnet alle Kennzahlen für Kapitel 5 der Arbeit aus den gespeicherten Ergebnisdateien:
    Kennzahlen je Verfahren und Kategorie, Konfusionsmatrizen, Hochrechnung der Stichprobe, Kosten und
    Antwortzeiten. Prüft außerdem den Sprachfilter aus Schritt 0 mit lingua (lädt dafür die Quelldatei
    von Hugging Face). Es wird nichts neu trainiert und keine API aufgerufen.

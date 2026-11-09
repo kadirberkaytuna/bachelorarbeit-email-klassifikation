@@ -1,7 +1,8 @@
-Ausgeführt am 20.10.2026
+Ausgeführt am 09.11.2026
+
 
 C:\Projekte\Bachelorarbeit\proto\.venv\Scripts\python.exe C:\Projekte\Bachelorarbeit\proto\05_auswertung.py
-===== 6.1 Klassifikationsgüte (300 Testtickets) =====
+===== 5.1 Klassifikationsgüte (300 Testtickets) =====
 
 Tabelle 6: Genauigkeit und Makro-Durchschnitt
   Naive Bayes              Genauigkeit 36.0% (108 von 300), Precision 38.8%, Recall 36.0%, F1 36.1%
@@ -41,7 +42,7 @@ Zusatz: McNemar-Test (Tickets, die nur das erste bzw. nur das zweite Verfahren r
   95%-Konfidenzintervall Genauigkeit Logistische Regression: 37.5% bis 48.7%
   95%-Konfidenzintervall Genauigkeit GPT-6 Luna: 29.2% bis 39.9%
 
-===== 6.2.1 Konfusionsmatrizen (Zeilen = Label, Spalten = Vorhersage) =====
+===== 5.2.1 Konfusionsmatrizen (Zeilen = Label, Spalten = Vorhersage) =====
 
 Naive Bayes: 192 Abweichungen vom Label
     RZ  RR  VA  KS  TS
@@ -70,7 +71,7 @@ KS   0   0  23   7  30
 TS   0   0  12   6  42
   Abweichungen nach Vorhersage: RZ 0, RR 0, VA 73, KS 18, TS 106
 
-===== 6.2.2 Qualität der Labels (100 manuell geprüfte Tickets) =====
+===== 5.2.2 Qualität der Labels (100 manuell geprüfte Tickets) =====
 
 Tabelle 9
   Rechnung/Zahlung        7 von 20 passen   stattdessen: Kundenservice 8, Technischer Support 5
@@ -88,7 +89,7 @@ Sprachfilter: 12249 Tickets mit Sprachangabe 'de'
   von der Heuristik behalten: 8754, davon laut lingua deutsch: 8754
   deutsche Tickets, die die Heuristik verworfen hat: 147 (Länge im Median 6 Wörter, alle Tickets: 52 Wörter)
 
-===== 6.2.3 Zusatzauswertung: Abweichungen des LLM vom Label (100 geprüfte Tickets) =====
+===== 5.2.3 Zusatzauswertung: Abweichungen des LLM vom Label (100 geprüfte Tickets) =====
 Ergebnisse von 04_stichprobe.py, hier aufgeschlüsselt nach Label und Vorhersage des LLM.
 'davon geprüft gleich' = die manuelle Prüfung ergab dieselbe Kategorie wie das LLM
 
@@ -113,7 +114,7 @@ Zusatz: McNemar-Test und 95%-Konfidenzintervall gegen die geprüfte Kategorie
   Logistische Regression: 44%, Konfidenzintervall 35% bis 54%
   LLM: 66%, Konfidenzintervall 56% bis 75%
 
-===== 6.3 Kosten und Antwortzeit (300 Testtickets) =====
+===== 5.3 Kosten und Antwortzeit (300 Testtickets) =====
 
 Tokens: 52827 Eingabe, 4455 Ausgabe
   pro E-Mail im Mittel: 176 Eingabe, 15 Ausgabe (Ausgabe zwischen 14 und 17)

@@ -1,4 +1,4 @@
-"""Schritt 5: Auswertung - berechnet die Kennzahlen für Kapitel 6 aus den gespeicherten Ergebnisdateien.
+"""Schritt 5: Auswertung - berechnet die Kennzahlen für Kapitel 5 aus den gespeicherten Ergebnisdateien.
 
 Es wird nichts neu trainiert und keine API aufgerufen. Grundlage sind:
 - results/baseline.csv und results/zero_shot.csv (Schritte 1 und 2, 300 Testtickets)
@@ -6,12 +6,12 @@ Es wird nichts neu trainiert und keine API aufgerufen. Grundlage sind:
 Optional: Prüfung des Sprachfilters mit lingua (pip install lingua-language-detector==2.2.0).
 Dafür wird die Quelldatei erneut von Hugging Face geladen.
 
-Aufbau der Ausgabe (Abschnittsnummern wie in der Ausgabe):
-- 6.1   Klassifikationsgüte: Tabelle 6 und 7, Anzahl der Vorhersagen je Kategorie
-- 6.2.1 Konfusionsmatrizen der drei Verfahren (Tabelle 8 und Anhang)
-- 6.2.2 Qualität der Labels: Tabelle 9, Hochrechnung auf den Datensatz, Prüfung des Sprachfilters
-- 6.2.3 Abweichungen des LLM vom Label auf den 100 geprüften Tickets
-- 6.3   Kosten und Antwortzeit (Tabelle 11)
+Aufbau der Ausgabe (Abschnittsnummern wie in Kapitel 5 der Arbeit):
+- 5.1   Klassifikationsgüte: Tabelle 6 und 7, Anzahl der Vorhersagen je Kategorie
+- 5.2.1 Konfusionsmatrizen der drei Verfahren (Tabelle 8, Anhang A mit Tabelle 13 und 14)
+- 5.2.2 Qualität der Labels: Tabelle 9, Hochrechnung auf den Datensatz, Prüfung des Sprachfilters
+- 5.2.3 Abweichungen des LLM vom Label auf den 100 geprüften Tickets
+- 5.3   Kosten und Antwortzeit (Tabelle 11)
 Die mit "Zusatz" überschriebenen Teile (McNemar-Test, Konfidenzintervalle) dienen nur der
 Einordnung der Ergebnisse und werden in der Arbeit nicht verwendet.
 """
@@ -76,9 +76,9 @@ verfahren = {
     "GPT-6 Luna": (llm["Label"], llm["Vorhersage"]),
 }
 
-# ---------------------------------------------------------------- 6.1
+# ---------------------------------------------------------------- 5.1
 # Klassifikationsgüte auf den 300 Testtickets, gemessen an den Labels des Datensatzes
-print("===== 6.1 Klassifikationsgüte (300 Testtickets) =====\n")
+print("===== 5.1 Klassifikationsgüte (300 Testtickets) =====\n")
 print("Tabelle 6: Genauigkeit und Makro-Durchschnitt")
 for name, (label, vorhersage) in verfahren.items():
     # average="macro": ungewichteter Mittelwert über die fünf Kategorien.
@@ -118,9 +118,9 @@ for name, r in richtig.items():
     unten, oben = wilson(r.sum(), len(r))
     print(f"  95%-Konfidenzintervall Genauigkeit {name}: {unten:.1%} bis {oben:.1%}")
 
-# ---------------------------------------------------------------- 6.2.1
-# Welche Kategorien werden miteinander verwechselt? Tabelle 8 (LLM) und Anhang (NB, LR)
-print("\n===== 6.2.1 Konfusionsmatrizen (Zeilen = Label, Spalten = Vorhersage) =====")
+# ---------------------------------------------------------------- 5.2.1
+# Welche Kategorien werden miteinander verwechselt? Tabelle 8 (LLM), Anhang A: Tabelle 13 (LR) und 14 (NB)
+print("\n===== 5.2.1 Konfusionsmatrizen (Zeilen = Label, Spalten = Vorhersage) =====")
 for name, (label, vorhersage) in verfahren.items():
     abweichung = label != vorhersage  # True, wenn die Vorhersage vom Label abweicht
     print(f"\n{name}: {abweichung.sum()} Abweichungen vom Label")
@@ -130,9 +130,9 @@ for name, (label, vorhersage) in verfahren.items():
     nach_vorhersage = vorhersage[abweichung].value_counts().reindex(KATEGORIEN, fill_value=0)
     print("  Abweichungen nach Vorhersage: " + ", ".join(f"{KURZ[k]} {n}" for k, n in nach_vorhersage.items()))
 
-# ---------------------------------------------------------------- 6.2.2
+# ---------------------------------------------------------------- 5.2.2
 # Qualität der Labels: Ergebnis der manuellen Prüfung von 100 Tickets (Tabelle 9)
-print("\n===== 6.2.2 Qualität der Labels (100 manuell geprüfte Tickets) =====\n")
+print("\n===== 5.2.2 Qualität der Labels (100 manuell geprüfte Tickets) =====\n")
 stichprobe = pd.read_csv("data/stichprobe_100.csv")
 # Ein Label gilt als korrekt, wenn es mit der manuell geprüften Kategorie übereinstimmt
 stichprobe["Korrekt"] = stichprobe["Label"] == stichprobe["Manuell"]
@@ -204,10 +204,10 @@ else:  # wird nur ausgeführt, wenn der Import geklappt hat
           f"(Länge im Median {verworfen.str.split().str.len().median():.0f} Wörter, "
           f"alle Tickets: {de['body'].str.split().str.len().median():.0f} Wörter)")
 
-# ---------------------------------------------------------------- 6.2.3
+# ---------------------------------------------------------------- 5.2.3
 # Zusatzauswertung auf den 100 geprüften Tickets: Wenn das LLM vom Label abweicht,
 # bestätigt die manuelle Prüfung dann eher das LLM oder das Label?
-print("\n===== 6.2.3 Zusatzauswertung: Abweichungen des LLM vom Label (100 geprüfte Tickets) =====")
+print("\n===== 5.2.3 Zusatzauswertung: Abweichungen des LLM vom Label (100 geprüfte Tickets) =====")
 print("Ergebnisse von 04_stichprobe.py, hier aufgeschlüsselt nach Label und Vorhersage des LLM.")
 print("'davon geprüft gleich' = die manuelle Prüfung ergab dieselbe Kategorie wie das LLM\n")
 geprueft = pd.read_csv("results/stichprobe.csv")
@@ -216,7 +216,7 @@ abweichung = geprueft[geprueft["LLM"] != geprueft["Label"]]  # nur Tickets, bei 
 for (label, vorhersage), teil in abweichung.groupby(["Label", "LLM"]):
     print(f"  Label {KURZ[label]} → LLM {KURZ[vorhersage]}: {len(teil):2d}, "
           f"davon geprüft gleich: {(teil['Manuell'] == vorhersage).sum()}")
-# Zusatz, nicht in der Arbeit: dieselben Tests wie in 6.1, aber gegen die geprüfte Kategorie
+# Zusatz, nicht in der Arbeit: dieselben Tests wie in 5.1, aber gegen die geprüfte Kategorie
 print("\nZusatz: McNemar-Test und 95%-Konfidenzintervall gegen die geprüfte Kategorie")
 richtig = {name: (geprueft[name] == geprueft["Manuell"])
            for name in ["Naive Bayes", "Logistische Regression", "LLM"]}
@@ -228,9 +228,9 @@ for name, r in richtig.items():
     unten, oben = wilson(r.sum(), len(r))
     print(f"  {name}: {r.mean():.0%}, Konfidenzintervall {unten:.0%} bis {oben:.0%}")
 
-# ---------------------------------------------------------------- 6.3
+# ---------------------------------------------------------------- 5.3
 # Kosten und Antwortzeiten auf den 300 Testtickets (Tabelle 11)
-print("\n===== 6.3 Kosten und Antwortzeit (300 Testtickets) =====\n")
+print("\n===== 5.3 Kosten und Antwortzeit (300 Testtickets) =====\n")
 # Summe der Tokens über alle 300 Anfragen an das LLM
 eingabe, ausgabe = llm["Input_Tokens"].sum(), llm["Output_Tokens"].sum()
 # Kosten = Tokens × Preis pro 1 Mio. Tokens / 1.000.000 (1e6 = 1.000.000)

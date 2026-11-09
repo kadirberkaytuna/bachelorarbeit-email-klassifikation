@@ -4,7 +4,7 @@ import pandas as pd
 from openai import OpenAI
 from sklearn.metrics import accuracy_score, classification_report
 
-MODELL = "gpt-6-luna"    # Modellwahl siehe Kapitel 4.3
+MODELL = "gpt-6-luna"    # Modellwahl siehe Abschnitt 3.3 der Arbeit
 ANZAHL = 300             # alle Testtickets; zum Ausprobieren kleiner setzen, z. B. 50
 KATEGORIEN = ["Rechnung/Zahlung", "Reklamation/Rückgabe", "Vertriebsanfrage",
               "Kundenservice", "Technischer Support"]
